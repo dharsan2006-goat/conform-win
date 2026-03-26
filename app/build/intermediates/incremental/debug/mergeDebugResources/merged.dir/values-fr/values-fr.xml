@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="location_notes_title">
+    <item quantity="one">#%1$s ± 1 • %2$d note</item>
+    <item quantity="other">#%1$s ± 1 • %2$d notes</item>
+  </plurals>
+    <plurals name="notification_and_more">
+        <item quantity="one">et %d de plus</item>
+        <item quantity="other">et %d de plus</item>
+    </plurals>
+    <plurals name="people_count">
+        <item quantity="one">1 personne</item>
+        <item quantity="other">%d personnes</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="about_appearance">apparence</string>
+    <string name="about_dark">sombre</string>
+    <string name="about_debug_settings">Paramètres de debug</string>
+    <string name="about_e2e_desc">Les messages privés sont chiffrés. Les messages de canal sont publics.</string>
+    <string name="about_e2e_title">Chiffrement de bout en bout</string>
+    <string name="about_emergency_tip">Astuce : tapote 3 fois le titre de l’app pour supprimer toutes les données (messages, clés, paramètres).</string>
+    <string name="about_emergency_title">Suppression d’urgence des données</string>
+    <string name="about_footer">Open Source • Privacy First • Décentralisé</string>
+    <string name="about_last">Dernier : %1$s</string>
+    <string name="about_light">clair</string>
+    <string name="about_network">réseau</string>
+    <string name="about_offline_mesh_desc">Communique directement via Bluetooth LE sans internet ni serveurs. Les messages sont relayés par les appareils proches pour étendre la portée.</string>
+    <string name="about_offline_mesh_title">Chat Mesh hors‑ligne</string>
+    <string name="about_online_geohash_desc">Discute avec des personnes proches via des canaux basés sur geohash. Étends le mesh grâce à des relais internet publics.</string>
+    <string name="about_online_geohash_title">Canaux Geohash en ligne</string>
+    <string name="about_pow">proof of work</string>
+    <string name="about_pow_desc_extreme">extrême – calcul important requis</string>
+    <string name="about_pow_desc_high">élevée – forte protection</string>
+    <string name="about_pow_desc_low">faible – protection basique</string>
+    <string name="about_pow_desc_medium">moyenne – bonne protection</string>
+    <string name="about_pow_desc_none">aucun proof of work requis</string>
+    <string name="about_pow_desc_very_high">très élevée – peut causer des délais</string>
+    <string name="about_pow_desc_very_low">très faible – protection minimale</string>
+    <string name="about_pow_difficulty">difficulté : %1$d bits (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">la difficulté %1$d nécessite ~%2$s tentatives de hachage</string>
+    <string name="about_pow_off">pow désactivé</string>
+    <string name="about_pow_on">pow activé</string>
+    <string name="about_pow_tip">ajoute un proof of work aux messages geohash pour dissuader le spam.</string>
+    <string name="about_system">système</string>
+    <string name="about_tagline">messagerie mesh décentralisée avec chiffrement de bout en bout</string>
+    <string name="about_tor_off">tor désactivé</string>
+    <string name="about_tor_on">tor activé</string>
+    <string name="about_tor_route">router internet via Tor pour plus de confidentialité.</string>
+    <string name="about_tor_status">statut Tor : %1$s, bootstrap %2$d%%</string>
+    <string name="action_block_subtitle">bloquer tous les messages de cet utilisateur</string>
+    <string name="action_block_title">bloquer %1$s</string>
+    <string name="action_copy_message_subtitle">copier ce message dans le presse‑papiers</string>
+    <string name="action_copy_message_title">copier le message</string>
+    <string name="action_hug_subtitle">envoyer une accolade amicale</string>
+    <string name="action_hug_title">prendre %1$s dans les bras</string>
+    <string name="action_slap_subtitle">envoyer une gifle amicale</string>
+    <string name="action_slap_title">gifler %1$s</string>
+    <string name="app_brand">MeshWave/</string>
+    <string name="app_name">MeshWave</string>
+    <string name="at_nickname">@%1$s</string>
+    <string name="at_symbol">@</string>
+    <string msgid="389117264260014992" name="autofill">"Saisie automatique"</string>
+    <string name="back">Retour</string>
+    <string name="battery_benefits_short">• livraison fiable des messages\n• maintient la connectivité mesh\n• évite les coupures</string>
+    <string name="battery_optimization_benefits">• Livraison fiable des messages\n• Maintien de la connectivité mesh\n• Relais des messages en arrière‑plan\n• Évite les coupures</string>
+    <string name="battery_optimization_check_again">Vérifier à nouveau</string>
+    <string name="battery_optimization_checking">Vérification de l’optimisation de la batterie</string>
+    <string name="battery_optimization_continue">Continuer</string>
+    <string name="battery_optimization_detected">Optimisation de la batterie détectée</string>
+    <string name="battery_optimization_detected_title">optimisation de la batterie détectée</string>
+    <string name="battery_optimization_disable_button">Désactiver l’optimisation</string>
+    <string name="battery_optimization_disabled">Optimisation de la batterie désactivée</string>
+    <string name="battery_optimization_disabled_title">optimisation de la batterie désactivée</string>
+    <string name="battery_optimization_enabled_title">Optimisation de la batterie activée</string>
+    <string name="battery_optimization_explanation">MeshWave s’exécute en arrière-plan pour maintenir des connexions mesh avec les appareils à proximité. L’optimisation de la batterie peut interrompre ces connexions, entraînant des retards ou des pertes de messages.\n\nLa désactiver garantit une messagerie pair à pair fiable.</string>
+    <string name="battery_optimization_explanation_short">MeshWave doit fonctionner en arrière‑plan pour maintenir les connexions mesh. l’optimisation de la batterie peut les interrompre.</string>
+    <string name="battery_optimization_not_required">Optimisation de la batterie non requise</string>
+    <string name="battery_optimization_not_supported_explanation">Ton appareil n’a pas besoin de réglages d’optimisation de batterie. MeshWave fonctionnera normalement.</string>
+    <string name="battery_optimization_not_supported_message">Ton appareil n’a pas besoin de réglages d’optimisation de batterie. MeshWave fonctionnera normalement.</string>
+    <string name="battery_optimization_note">Remarque : tu peux modifier ce réglage plus tard dans Paramètres Android > Apps > MeshWave > Batterie</string>
+    <string name="battery_optimization_skip">Ignorer pour l’instant</string>
+    <string name="battery_optimization_success_message">MeshWave peut fonctionner de manière fiable en arrière‑plan</string>
+    <string name="battery_optimization_why_disable">Pourquoi désactiver l’optimisation de la batterie ?</string>
+    <string name="benefits_of_disabling">Avantages de la désactivation</string>
+    <string name="bluetooth_needs_bullets">• Découvrir les utilisateurs à proximité\n• Créer des connexions de réseau mesh\n• Envoyer et recevoir des messages\n• Fonctionner sans internet ni serveurs</string>
+    <string name="bluetooth_needs_for">MeshWave a besoin de Bluetooth pour :</string>
+    <string name="bluetooth_not_supported">Bluetooth non pris en charge</string>
+    <string name="bluetooth_required">Bluetooth requis</string>
+    <string name="bluetooth_unsupported_explanation">Cet appareil ne prend pas en charge Bluetooth Low Energy (BLE), requis pour le fonctionnement de MeshWave.\n\nMeshWave a besoin de BLE pour créer des réseaux mesh et communiquer sans internet avec les appareils à proximité.</string>
+    <string name="bookmarked">ajouté aux favoris</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Répondre"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vidéo"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Refuser"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Raccrocher"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Appel entrant"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Appel en cours"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrage d\'un appel entrant"</string>
+    <string name="cancel">Annuler</string>
+    <string name="cancel_lower">annuler</string>
+    <string name="cd_add_bookmark">Ajouter un signet</string>
+    <string name="cd_add_favorite">Ajouter aux favoris</string>
+    <string name="cd_battery_optimization">Optimisation de la batterie</string>
+    <string name="cd_benefits">Avantages</string>
+    <string name="cd_bluetooth">Bluetooth</string>
+    <string name="cd_cancel">Annuler</string>
+    <string name="cd_checking_battery_optimization">Vérification de l’optimisation de la batterie</string>
+    <string name="cd_connected_peers">Pairs connectés</string>
+    <string name="cd_decrease_precision">Diminuer la précision</string>
+    <string name="cd_encrypted">Chiffré de bout en bout</string>
+    <string name="cd_end_to_end_encryption">Chiffrement de bout en bout</string>
+    <string name="cd_error">Erreur</string>
+    <string name="cd_file">Fichier</string>
+    <string name="cd_geohash_participants">Participants geohash</string>
+    <string name="cd_handshake_failed">Échec de l’échange</string>
+    <string name="cd_handshake_in_progress">Échange de clés en cours</string>
+    <string name="cd_image">Image</string>
+    <string name="cd_increase_precision">Augmenter la précision</string>
+    <string name="cd_leave_channel">Quitter le canal</string>
+    <string name="cd_link">Lien</string>
+    <string name="cd_location_services">Services de localisation</string>
+    <string name="cd_nostr_reachable">Joignable via Nostr</string>
+    <string name="cd_not_supported_battery_optimization">Optimisation non prise en charge</string>
+    <string name="cd_offline_favorite">Favori (hors‑ligne)</string>
+    <string name="cd_offline_mesh_chat">Chat Mesh hors‑ligne</string>
+    <string name="cd_online_geohash_channels">Canaux Geohash en ligne</string>
+    <string name="cd_open_map">Ouvrir la carte</string>
+    <string name="cd_pause_voice">Pause</string>
+    <string name="cd_pick_media">Choisir un média</string>
+    <string name="cd_play_voice">Lire</string>
+    <string name="cd_privacy">Confidentialité</string>
+    <string name="cd_reachable_via_nostr">Joignable via Nostr</string>
+    <string name="cd_ready_for_handshake">Prêt pour l’échange de clés</string>
+    <string name="cd_record_voice">Enregistrer un message vocal</string>
+    <string name="cd_remove_bookmark">Retirer le signet</string>
+    <string name="cd_remove_favorite">Retirer des favoris</string>
+    <string name="cd_scroll_to_bottom">Aller en bas</string>
+    <string name="cd_select_geohash">Sélectionner le geohash</string>
+    <string name="cd_selected">Sélectionné</string>
+    <string name="cd_teleport">Téléporter</string>
+    <string name="cd_teleported">Téléporté</string>
+    <string name="cd_toggle_bookmark">Basculer le signet</string>
+    <string name="cd_tor_status">Statut Tor</string>
+    <string name="cd_unread_message">Message non lu</string>
+    <string name="cd_unread_private_messages">Messages privés non lus</string>
+    <string name="cd_warning">Avertissement</string>
+    <string name="channel_count_prefix"> · ⧉ </string>
+    <string name="channel_password_hint">Mot de passe</string>
+    <string name="channels">Canaux</string>
+    <string name="chat_back">retour</string>
+    <string name="chat_channel_prefix">canal : %1$s</string>
+    <string name="chat_leave">quitter</string>
+    <string name="check_again">Vérifier à nouveau</string>
+    <string name="checking_bluetooth_status">Vérification du statut Bluetooth…</string>
+    <string name="checking_location_services">Vérification des services de localisation…</string>
+    <string name="checking_permissions">vérification des permissions…</string>
+    <string name="choose_action_message_or_user">choisis une action pour ce message ou cet utilisateur</string>
+    <string name="choose_action_user">choisis une action pour cet utilisateur</string>
+    <string msgid="406453423630273620" name="close_drawer">"Fermer le menu de navigation"</string>
+    <string name="close_plain">Fermer</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Fermer la feuille"</string>
+    <string name="close_with_emoji">❌ Fermer</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activer</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilité des services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">L\'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Mettre à jour</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="continue_btn">Continuer</string>
+    <string name="debug_bluetooth_roles">rôles Bluetooth</string>
+    <string name="debug_clear">effacer</string>
+    <string name="debug_connect">connecter</string>
+    <string name="debug_connected_devices">appareils connectés</string>
+    <string name="debug_connections_fmt">connexions : %1$d / %2$d</string>
+    <string name="debug_debug_console">console de debug</string>
+    <string name="debug_derived_p_fmt">P dérivé : %1$s • nb max estimé : %2$s</string>
+    <string name="debug_direct_suffix"> • direct</string>
+    <string name="debug_disconnect">déconnecter</string>
+    <string name="debug_gatt_client">client GATT</string>
+    <string name="debug_gatt_server">serveur GATT</string>
+    <string name="debug_max_client">max client</string>
+    <string name="debug_max_gcs_filter_size_fmt">taille max du filtre GCS : %1$d octets (128–1024)</string>
+    <string name="debug_max_overall">max global</string>
+    <string name="debug_max_packets_per_sync_fmt">paquets max par synchro : %1$d</string>
+    <string name="debug_max_server">max serveur</string>
+    <string name="debug_none">aucun</string>
+    <string name="debug_our_device_id_fmt">ID de notre appareil : %1$s</string>
+    <string name="debug_overall_connections_fmt">connexions : %1$d / %2$d</string>
+    <string name="debug_packet_relay">relais de paquets</string>
+    <string name="debug_question_mark">?</string>
+    <string name="debug_recent_scan_results">résultats de scan récents</string>
+    <string name="debug_relays_window_fmt">dernières 10s : %1$d • 1m : %2$d • 15m : %3$d</string>
+    <string name="debug_role_client">en tant que client (nous nous connectons)</string>
+    <string name="debug_role_server">en tant que serveur (nous hébergeons)</string>
+    <string name="debug_since_start_fmt">depuis le début : %1$d</string>
+    <string name="debug_sync_settings">paramètres de synchro</string>
+    <string name="debug_target_fpr_fmt">FPR cible : %1$.2f%%</string>
+    <string name="debug_tools">outils de debug</string>
+    <string name="debug_tools_desc">outils développeur pour diagnostic et contrôle</string>
+    <string name="debug_verbose_logging">journalisation verbeuse</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Données incorrectes"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Fenêtre pop-up"</string>
+    <string name="disable_battery_optimization">Désactiver l’optimisation</string>
+    <string name="disable_location_services">désactiver les services de localisation</string>
+    <string name="dismiss">fermer</string>
+    <string name="dot">.</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu déroulant"</string>
+    <string name="emergency_clear_hint">Tapoter 3 fois pour effacer toutes les données</string>
+    <string name="enable_bluetooth">Activer Bluetooth</string>
+    <string name="enable_location_services">activer les services de localisation</string>
+    <string name="file_unavailable">[fichier indisponible]</string>
+    <string name="file_viewer_name">📄 %1$s</string>
+    <string name="file_viewer_open_save">📂 Ouvrir / Enregistrer</string>
+    <string name="file_viewer_size">📏 Taille : %1$s</string>
+    <string name="file_viewer_title">📎 Fichier reçu</string>
+    <string name="file_viewer_type">🏷️ Type : %1$s</string>
+    <string name="finding_nearby_channels">recherche des canaux à proximité…</string>
+    <string name="fingerprint_copy">copier</string>
+    <string name="fingerprint_mark_verified">marquer vérifié</string>
+    <string name="fingerprint_no_peer">ouvrir un chat privé</string>
+    <string name="fingerprint_not_verified_label">non vérifié</string>
+    <string name="fingerprint_not_verified_message_fmt">comparez avec %1$s via canal sûr.</string>
+    <string name="fingerprint_pending">négociation en cours</string>
+    <string name="fingerprint_start_handshake">lancer handshake</string>
+    <string name="fingerprint_status_encrypted">chiffré</string>
+    <string name="fingerprint_status_failed">échec négociation</string>
+    <string name="fingerprint_status_handshaking">négociation</string>
+    <string name="fingerprint_status_uninitialized">non chiffré</string>
+    <string name="fingerprint_status_verified">chiffré &amp; vérifié</string>
+    <string name="fingerprint_their">leur empreinte</string>
+    <string name="fingerprint_verified_label">vérifié</string>
+    <string name="fingerprint_verified_message">vous avez vérifié cette personne.</string>
+    <string name="fingerprint_yours">votre empreinte</string>
+    <string name="geohash_people_header">PERSONNES</string>
+    <string name="geohash_placeholder">geohash</string>
+    <string name="grant_location_permission">accorder la permission de localisation</string>
+    <string name="grant_permissions">Accorder les autorisations</string>
+    <string name="hash_symbol">#</string>
+    <string name="image_counter">%1$d / %2$d</string>
+    <string name="image_page_of">Image %1$d sur %2$d</string>
+    <string name="image_save_failed">Échec de l’enregistrement de l’image</string>
+    <string name="image_saved_to_downloads">Image enregistrée dans "Téléchargements"</string>
+    <string name="image_star">image/*</string>
+    <string name="image_unavailable">Image indisponible</string>
+    <string msgid="6827826412747255547" name="in_progress">"En cours"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Partiellement coché"</string>
+    <string name="initializing_mesh_network">Initialisation du réseau mesh</string>
+    <string name="invalid_geohash">geohash invalide</string>
+    <string name="join">Rejoindre</string>
+    <string name="join_channel">Rejoindre le canal</string>
+    <string name="leave_channel">Quitter</string>
+    <string name="loading_location_notes">chargement des notes…</string>
+    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_channels_desc">discute avec des personnes proches via des canaux geohash. seul un geohash approximatif est partagé, jamais un GPS exact. ne prends pas de capture d’écran et ne partage pas cet écran pour protéger ta vie privée.</string>
+    <string name="location_channels_title">#canaux de lieu</string>
+    <string name="location_explanation">MeshWave ne suit PAS ta position.\n\nLes services de localisation sont requis pour le scan Bluetooth et pour la fonction de chat Geohash.</string>
+    <string name="location_level_block">bloc</string>
+    <string name="location_level_city">ville</string>
+    <string name="location_level_neighborhood">quartier</string>
+    <string name="location_level_province">province</string>
+    <string name="location_level_region">région</string>
+    <string name="location_needs_bullets">• Scan des appareils Bluetooth\n• Découvrir les utilisateurs à proximité sur le réseau mesh\n• Fonction de chat Geohash\n• Pas de suivi ni de collecte de position</string>
+    <string name="location_needs_for">MeshWave a besoin des services de localisation pour :</string>
+    <string name="location_notes_description">ajoutez de courtes notes permanentes à cet endroit pour que d\'autres visiteurs les trouvent.</string>
+    <string name="location_notes_empty_desc">soyez le premier à en ajouter pour cet endroit.</string>
+    <string name="location_notes_empty_title">aucune note pour le moment</string>
+    <string name="location_notes_input_placeholder">ajoutez une note pour cet endroit</string>
+    <string name="location_notes_no_relays_desc">les notes dépendent des relais géo. vérifiez la connexion et réessayez.</string>
+    <string name="location_notes_no_relays_title">aucun relais géo à proximité</string>
+    <string name="location_notes_relays_unavailable">relais géo indisponibles ; notes en pause</string>
+    <string name="location_permission_denied">permission de localisation refusée. active‑la dans les paramètres pour utiliser les canaux de lieu.</string>
+    <string name="location_permission_granted">\u2713 permission de localisation accordée</string>
+    <string name="location_services_required">Services de localisation requis</string>
+    <string name="location_services_unavailable">Services de localisation indisponibles</string>
+    <string name="location_tracking_warning">MeshWave ne suit PAS ta position</string>
+    <string name="location_unavailable_explanation">Les services de localisation ne sont pas disponibles sur cet appareil. C’est inhabituel car ils sont standard sur Android.\n\nL’app en a besoin pour que le scan Bluetooth fonctionne correctement (exigence Android). Sans cela, l’app ne peut pas découvrir les utilisateurs à proximité.</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Réduire la bottom sheet"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Fermer la bottom sheet"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Poignée de déplacement"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Développer la bottom sheet"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Bottom sheet"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Date saisie"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Date saisie : %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"La date ne correspond pas au format attendu : %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Date non autorisée : %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Date hors de la plage d\'années attendue : %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Date"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Aucun"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Sélectionner une date"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Date sélectionnée"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Sélection actuelle : %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Accéder à l\'année %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Aucun"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Faites défiler pour afficher les années précédentes"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Faites défiler pour afficher les années suivantes"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Passer au mode de saisie Agenda"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Balayez l\'écran pour sélectionner une année ou appuyez pour revenir à la sélection d\'un jour"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Passer au mode de saisie Texte"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Passer au mois suivant"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Passer au mois précédent"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Passer à la sélection d\'une année"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Sélectionner une date"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Aujourd\'hui"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Sélecteur d\'année visible"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Plage de dates non valide"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Saisir des dates"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Dans la plage"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Date de fin"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Faites défiler pour afficher le mois suivant"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Faites défiler pour afficher le mois précédent"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Date de début"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Sélectionner des dates"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Boîte de dialogue"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Réduit"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Développé"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Activer/désactiver le menu déroulant"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Rechercher"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Fermer"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Suggestions ci-dessous"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Heure"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d heures"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Sélectionner une heure"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d heures"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"en heures"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minute"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Sélectionner des minutes"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minutes"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"en minutes"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Sélectionner le format AM ou PM"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Afficher l\'info-bulle"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Info-bulle"</string>
+    <string msgid="2792228137354697160" name="mc2_snackbar_pane_title">"Alerte"</string>
+    <string name="media_type_file">Fichier</string>
+    <string name="media_type_image">Image</string>
+    <string name="mention">mention</string>
+    <string name="mention_suggestion_at">@%1$s</string>
+    <string name="mesh_label">mesh</string>
+    <string name="mesh_service_notification_content">Mesh actif — %1$d pairs</string>
+    <string name="message_hint">écrire un message…</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu de navigation"</string>
+    <string name="nickname_hint">pseudo</string>
+    <string name="no_one_connected">Personne connecté</string>
+    <string name="nobody_around">personne aux alentours…</string>
+    <string msgid="6610465462668679431" name="not_selected">"Non sélectionné"</string>
+    <string name="notification_active_peers_many">%1$d personnes à proximité</string>
+    <string name="notification_active_peers_one">1 personne à proximité</string>
+    <string name="notification_active_peers_title">👥 MeshWaveters à proximité !</string>
+    <string name="notification_and_more">et %1$d de plus</string>
+    <string name="notification_file_doc">📄</string>
+    <string name="notification_file_generic">📎</string>
+    <string name="notification_file_pdf">📄</string>
+    <string name="notification_file_ppt">📈</string>
+    <string name="notification_file_xls">📊</string>
+    <string name="notification_file_zip">🗜️</string>
+    <string name="notification_geohash_summary_text">%1$d messages depuis %2$d lieux</string>
+    <string name="notification_geohash_summary_title">MeshWave – discussions par lieu</string>
+    <string name="notification_geohash_summary_title_mentions">MeshWave – %1$d mentions</string>
+    <string name="notification_joined_conversation">%1$s a rejoint la conversation</string>
+    <string name="notification_mentions_in">Mentionné dans %1$s</string>
+    <string name="notification_mentions_in_more">Mentionné dans %1$s (+%2$d de plus)</string>
+    <string name="notification_mentions_in_plural">%1$d mentions dans %2$s</string>
+    <string name="notification_mesh_mention_title_plural">%1$d mentions dans le chat Mesh</string>
+    <string name="notification_mesh_mention_title_singular">Mentionné dans le chat Mesh</string>
+    <string name="notification_messages_from_people">%1$d messages de %2$d personnes</string>
+    <string name="notification_messages_in">Messages dans %1$s</string>
+    <string name="notification_more_conversations">et %1$d conversations de plus</string>
+    <string name="notification_more_locations">et %1$d lieux de plus</string>
+    <string name="notification_new_activity_in">Nouvelle activité dans %1$s</string>
+    <string name="notification_new_location_messages">Nouveaux messages de lieu</string>
+    <string name="notification_new_messages">Nouveaux messages</string>
+    <string name="notification_sent_file">📎 a envoyé un fichier</string>
+    <string name="notification_sent_image">📷 a envoyé une image</string>
+    <string name="notification_sent_voice">🎤 a envoyé un message vocal</string>
+    <string name="notification_summary_more">et %1$d de plus</string>
+    <string name="online_users">Utilisateurs en ligne</string>
+    <string name="open_location_settings">Ouvrir les paramètres de localisation</string>
+    <string name="open_settings">Ouvrir les paramètres</string>
+    <string name="pan_zoom_instruction">déplacer et zoomer pour choisir un geohash</string>
+    <string name="people">Personnes</string>
+    <string name="perm_battery_desc">Désactiver l’optimisation de la batterie pour assurer un fonctionnement fiable en arrière‑plan et maintenir les connexions mesh</string>
+    <string name="perm_battery_system">Autoriser MeshWave à fonctionner sans restrictions de batterie</string>
+    <string name="perm_location_desc">Requis par Android pour découvrir des utilisateurs MeshWave via Bluetooth</string>
+    <string name="perm_location_system">MeshWave en a besoin pour rechercher des appareils à proximité</string>
+    <string name="perm_nearby_devices_desc">Nécessaire pour découvrir des utilisateurs MeshWave via Bluetooth</string>
+    <string name="perm_nearby_devices_system">Autoriser MeshWave à se connecter aux appareils à proximité</string>
+    <string name="perm_notifications_desc">Recevoir des notifications de messages privés</string>
+    <string name="perm_notifications_system">Autoriser MeshWave à t’envoyer des notifications</string>
+    <string name="perm_type_battery_optimization">Optimisation de la batterie</string>
+    <string name="perm_type_microphone">Microphone</string>
+    <string name="perm_type_nearby_devices">Appareils à proximité</string>
+    <string name="perm_type_notifications">Notifications</string>
+    <string name="perm_type_other">Autre</string>
+    <string name="perm_type_precise_location">Localisation précise</string>
+    <string name="permission_bluetooth_rationale">L’autorisation Bluetooth est requise pour discuter en pair à pair sans internet.</string>
+    <string name="permission_location_rationale">L’autorisation de localisation est requise pour découvrir les appareils à proximité via Bluetooth.</string>
+    <string name="permission_notification_rationale">L’autorisation de notifications est requise pour t’alerter des nouveaux messages.</string>
+    <string name="permissions_header">autorisations</string>
+    <string name="pick_file">Choisir un fichier</string>
+    <string name="pick_image">Choisir une image</string>
+    <string name="pow_time_estimate">(~%1$s)</string>
+    <string name="privacy_bullets">• pas de suivi ni collecte de données\n• chats mesh Bluetooth entièrement hors‑ligne\n• les chats geohash utilisent internet</string>
+    <string name="privacy_first">Confidentialité d’abord</string>
+    <string name="privacy_protected">Ta confidentialité est protégée</string>
+    <string name="progress_bar_brackets">[%1$s] %2$d%%</string>
+    <string name="progress_empty">░</string>
+    <string name="progress_filled">█</string>
+    <string name="pwd_label">Mot de passe</string>
+    <string name="pwd_prompt_message">Le canal %1$s est protégé par mot de passe. Entre le mot de passe pour rejoindre.</string>
+    <string name="pwd_prompt_title">Entrer le mot de passe du canal</string>
+    <string msgid="5941395253238309765" name="range_end">"Fin de plage"</string>
+    <string msgid="7097486360902471446" name="range_start">"Début de plage"</string>
+    <string name="retry">Réessayer</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="security_verification_title">vérification de sécurité</string>
+    <string name="select">sélectionner</string>
+    <string msgid="6043586758067023" name="selected">"Sélectionné"</string>
+    <string name="send_message">Envoyer</string>
+    <string name="setting_up_bluetooth">Configuration du mesh Bluetooth…</string>
+    <string name="setup_not_complete">Configuration incomplète</string>
+    <string name="should_take_seconds">Cela ne devrait prendre que quelques secondes</string>
+    <string name="show_commands">Afficher les commandes</string>
+    <string name="skip">Ignorer</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Alerte"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Vide"</string>
+    <string msgid="5834637030682409883" name="state_off">"Désactivé"</string>
+    <string msgid="1490883874751719580" name="state_on">"Activé"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_delivered">✓✓</string>
+    <string name="status_failed">⚠</string>
+    <string name="status_pending">○</string>
+    <string name="status_read">✓</string>
+    <string name="status_sending">○</string>
+    <string name="status_sent">✓</string>
+    <string msgid="2561197295334830845" name="switch_role">"Changer"</string>
+    <string msgid="1672349317127674378" name="tab">"Onglet"</string>
+    <string name="teleport">téléporter</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> pour cent."</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"Info-bulle"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"Afficher l\'info-bulle"</string>
+    <string name="try_again">Réessayer</string>
+    <string name="type_a_message_placeholder">écrire un message…</string>
+    <string name="underscore">_</string>
+    <string name="unknown">inconnu</string>
+    <string name="verify_camera_permission">permission caméra requise</string>
+    <string name="verify_mutual_match_body">Vous et %1$s êtes vérifiés</string>
+    <string name="verify_mutual_match_title">Vérification mutuelle</string>
+    <string name="verify_mutual_system_message">vérification mutuelle avec %1$s</string>
+    <string name="verify_my_qr_title">scanner pour me vérifier</string>
+    <string name="verify_paste_label">coller url de vérification</string>
+    <string name="verify_qr_unavailable">qr indisponible</string>
+    <string name="verify_remove">supprimer la vérification</string>
+    <string name="verify_request_camera">activer caméra</string>
+    <string name="verify_scan_prompt_friend">scanner un autre qr</string>
+    <string name="verify_scan_someone">scanner un autre qr</string>
+    <string name="verify_scanned">vérification demandée</string>
+    <string name="verify_show_my_qr">afficher mon qr</string>
+    <string name="verify_success_body">Vous avez vérifié %1$s</string>
+    <string name="verify_success_system_message">vérifié %1$s</string>
+    <string name="verify_success_title">Vérifié</string>
+    <string name="verify_title">vérifier</string>
+    <string name="verify_validate">valider</string>
+    <string name="version_prefix">v%1$s</string>
+    <string name="warning_emoji">⚠️</string>
+    <string name="you_suffix"> (toi)</string>
+    <string name="your_network">Réseau</string>
+</resources>

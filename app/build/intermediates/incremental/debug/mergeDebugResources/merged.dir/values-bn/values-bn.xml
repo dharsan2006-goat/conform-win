@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="notification_and_more">
+        <item quantity="one">এবং %d আরো</item>
+        <item quantity="other">এবং %d আরো</item>
+    </plurals>
+    <plurals name="people_count">
+        <item quantity="one">১ জন</item>
+        <item quantity="other">%d জন</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"হোমে নেভিগেট করুন"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"উপরে নেভিগেট করুন"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"আরও বিকল্প"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"হয়ে গেছে"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"সবগুলি দেখুন"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"একটি অ্যাপ বেছে নিন"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"বন্ধ আছে"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"চালু করুন"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"মুছুন"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"সার্চ করুন…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"কোয়েরি মুছে ফেলুন"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"সার্চ কোয়েরি"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"সার্চ করুন"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"কোয়েরি জমা দিন"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ভয়েস সার্চ করুন"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"শেয়ার করুন"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-এর সাথে শেয়ার করুন"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"সঙ্কুচিত করুন"</string>
+    <string name="about_appearance">চেহারা</string>
+    <string name="about_dark">অন্ধকার</string>
+    <string name="about_debug_settings">ডিবাগ সেটিংস</string>
+    <string name="about_e2e_desc">ব্যক্তিগত বার্তাগুলি এনক্রিপ্ট করা। চ্যানেল বার্তাগুলি পাবলিক।</string>
+    <string name="about_e2e_title">এন্ড-টু-এন্ড এনক্রিপশন</string>
+    <string name="about_emergency_tip">টিপ: সংরক্ষিত সমস্ত ডেটা – বার্তা, কী এবং সেটিংস সহ – সাফ করতে অ্যাপ শিরোনামে তিনবার ট্যাপ করুন।</string>
+    <string name="about_emergency_title">জরুরী ডেটা ক্লিয়ার</string>
+    <string name="about_footer">ওপেন সোর্স • গোপনীয়তা প্রথম • বিকেন্দ্রীভূত</string>
+    <string name="about_last">শেষ: %1$s</string>
+    <string name="about_light">হালকা</string>
+    <string name="about_network">নেটওয়ার্ক</string>
+    <string name="about_offline_mesh_desc">ইন্টারনেট বা সার্ভার ছাড়াই Bluetooth LE এর মাধ্যমে সরাসরি যোগাযোগ করুন। পরিসর বাড়ানোর জন্য কাছাকাছি ডিভাইসের মাধ্যমে বার্তা রিলে করা হয়।</string>
+    <string name="about_offline_mesh_title">অফলাইন মেশ চ্যাট</string>
+    <string name="about_online_geohash_desc">জিওহ্যাশ-ভিত্তিক চ্যানেলের মাধ্যমে আপনার এলাকার মানুষদের সাথে সংযুক্ত হন। পাবলিক ইন্টারনেট রিলেগুলির মাধ্যমে মেশ বিস্তৃত করুন।</string>
+    <string name="about_online_geohash_title">অনলাইন জিওহ্যাশ চ্যানেল</string>
+    <string name="about_pow">প্রুফ অফ ওয়ার্ক</string>
+    <string name="about_pow_desc_extreme">চরম – উল্লেখযোগ্য কম্পিউটিং পাওয়ার প্রয়োজন</string>
+    <string name="about_pow_desc_high">উচ্চ – শক্তিশালী স্প্যাম সুরক্ষা</string>
+    <string name="about_pow_desc_low">কম – মৌলিক স্প্যাম সুরক্ষা</string>
+    <string name="about_pow_desc_medium">মাঝারি – ভাল স্প্যাম সুরক্ষা</string>
+    <string name="about_pow_desc_none">কোন প্রুফ অফ ওয়ার্ক প্রয়োজন নেই</string>
+    <string name="about_pow_desc_very_high">খুব উচ্চ – বিলম্ব ঘটাতে পারে</string>
+    <string name="about_pow_desc_very_low">খুব কম – ন্যূনতম স্প্যাম সুরক্ষা</string>
+    <string name="about_pow_difficulty">কঠিনতা: %1$d বিট (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">কঠিনতা %1$d প্রয়োজন ~%2$s হ্যাশ প্রচেষ্টা</string>
+    <string name="about_pow_off">PoW বন্ধ</string>
+    <string name="about_pow_on">PoW চালু</string>
+    <string name="about_pow_tip">স্প্যাম কঠিন করতে জিওহ্যাশ বার্তায় প্রুফ অফ ওয়ার্ক যোগ করুন।</string>
+    <string name="about_system">সিস্টেম</string>
+    <string name="about_tagline">এন্ড-টু-এন্ড এনক্রিপশন সহ বিকেন্দ্রীভূত মেশ চ্যাট</string>
+    <string name="about_tor_off">Tor বন্ধ</string>
+    <string name="about_tor_on">Tor চালু</string>
+    <string name="about_tor_route">আরো গোপনীয়তার জন্য Tor এর মাধ্যমে ইন্টারনেট ট্রাফিক রুট করুন।</string>
+    <string name="about_tor_status">Tor অবস্থা: %1$s, বুটস্ট্র্যাপ %2$d%%</string>
+    <string name="action_block_subtitle">এই ব্যবহারকারীর সমস্ত বার্তা ব্লক করুন</string>
+    <string name="action_block_title">%1$s কে ব্লক করুন</string>
+    <string name="action_copy_message_subtitle">এই বার্তাটি ক্লিপবোর্ডে কপি করুন</string>
+    <string name="action_copy_message_title">বার্তা কপি করুন</string>
+    <string name="action_hug_subtitle">একটি বন্ধুত্বপূর্ণ আলিঙ্গন পাঠান</string>
+    <string name="action_hug_title">%1$s কে আলিঙ্গন করুন</string>
+    <string name="action_slap_subtitle">একটি কৌতুকপূর্ণ চড় পাঠান</string>
+    <string name="action_slap_title">%1$s কে চড় দিন</string>
+    <string name="app_name">MeshWave</string>
+    <string msgid="389117264260014992" name="autofill">"অটোফিল"</string>
+    <string name="back">ফিরে যান</string>
+    <string name="battery_benefits_short">• নির্ভরযোগ্য বার্তা ডেলিভারি\n• মেশ সংযোগ বজায় রাখা\n• সংযোগ বিচ্ছিন্নতা প্রতিরোধ</string>
+    <string name="battery_optimization_benefits">• নির্ভরযোগ্য বার্তা ডেলিভারি\n• মেশ সংযোগ বজায় রাখা\n• ব্যাকগ্রাউন্ড বার্তা রিলে\n• সংযোগ বিচ্ছিন্নতা প্রতিরোধ</string>
+    <string name="battery_optimization_check_again">আবার পরীক্ষা করুন</string>
+    <string name="battery_optimization_checking">ব্যাটারি অপ্টিমাইজেশন পরীক্ষা করা হচ্ছে</string>
+    <string name="battery_optimization_continue">চালিয়ে যান</string>
+    <string name="battery_optimization_detected">ব্যাটারি অপ্টিমাইজেশন সনাক্ত</string>
+    <string name="battery_optimization_detected_title">ব্যাটারি অপ্টিমাইজেশন সনাক্ত</string>
+    <string name="battery_optimization_disable_button">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
+    <string name="battery_optimization_disabled">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয়</string>
+    <string name="battery_optimization_disabled_title">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয়</string>
+    <string name="battery_optimization_enabled_title">ব্যাটারি অপ্টিমাইজেশন সক্রিয়</string>
+    <string name="battery_optimization_explanation">MeshWave ব্যাকগ্রাউন্ডে চলে কাছাকাছি ডিভাইসগুলির সাথে মেশ সংযোগ বজায় রাখতে। ব্যাটারি অপ্টিমাইজেশন এই সংযোগগুলি বাধাগ্রস্ত করতে পারে, যার ফলে বার্তা বিলম্বিত বা হারিয়ে যেতে পারে।\n\nব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করা নির্ভরযোগ্য পিয়ার-টু-পিয়ার যোগাযোগ নিশ্চিত করে।</string>
+    <string name="battery_optimization_explanation_short">মেশ সংযোগ বজায় রাখতে MeshWave অবশ্যই ব্যাকগ্রাউন্ডে চলতে হবে। ব্যাটারি অপ্টিমাইজেশন এই সংযোগগুলি বাধাগ্রস্ত করতে পারে।</string>
+    <string name="battery_optimization_not_required">ব্যাটারি অপ্টিমাইজেশন প্রয়োজন নেই</string>
+    <string name="battery_optimization_not_supported_explanation">আপনার ডিভাইসে ব্যাটারি অপ্টিমাইজেশন সেটিংসের প্রয়োজন নেই। MeshWave স্বাভাবিকভাবে চলবে।</string>
+    <string name="battery_optimization_not_supported_message">আপনার ডিভাইসে ব্যাটারি অপ্টিমাইজেশন সেটিংসের প্রয়োজন নেই। MeshWave স্বাভাবিকভাবে চলবে।</string>
+    <string name="battery_optimization_note">নোট: আপনি পরে Android Settings > Apps > MeshWave > Battery এ এটি পরিবর্তন করতে পারেন।</string>
+    <string name="battery_optimization_skip">এখন এড়িয়ে যান</string>
+    <string name="battery_optimization_success_message">MeshWave নির্ভরযোগ্যভাবে ব্যাকগ্রাউন্ডে চলতে পারে</string>
+    <string name="battery_optimization_why_disable">কেন ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করবেন?</string>
+    <string name="benefits_of_disabling">নিষ্ক্রিয় করার সুবিধা</string>
+    <string name="bluetooth_needs_bullets">• কাছাকাছি ব্যবহারকারী আবিষ্কার\n• মেশ নেটওয়ার্ক সংযোগ তৈরি\n• বার্তা পাঠানো এবং গ্রহণ\n• ইন্টারনেট বা সার্ভার ছাড়া কাজ</string>
+    <string name="bluetooth_needs_for">MeshWave এর জন্য ব্লুটুথ প্রয়োজন:</string>
+    <string name="bluetooth_not_supported">ব্লুটুথ সমর্থিত নয়</string>
+    <string name="bluetooth_required">ব্লুটুথ প্রয়োজন</string>
+    <string name="bluetooth_unsupported_explanation">এই ডিভাইস Bluetooth Low Energy (BLE) সমর্থন করে না, যা MeshWave কাজ করার জন্য প্রয়োজন।\n\nMeshWave এর মেশ নেটওয়ার্ক তৈরি এবং ইন্টারনেট ছাড়াই কাছাকাছি ডিভাইসের সাথে যোগাযোগের জন্য BLE প্রয়োজন।</string>
+    <string name="bookmarked">বুকমার্ক করা</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"উত্তর দিন"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ভিডিও"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"বাতিল করুন"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"কল কেটে দিন"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ইনকামিং কল"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"চালু থাকা কল"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ইনকামিং কল স্ক্রিনিং করা হচ্ছে"</string>
+    <string name="cancel">বাতিল</string>
+    <string name="cancel_lower">বাতিল</string>
+    <string name="cd_add_bookmark">বুকমার্ক যোগ করুন</string>
+    <string name="cd_add_favorite">প্রিয়তে যোগ করুন</string>
+    <string name="cd_battery_optimization">ব্যাটারি অপ্টিমাইজেশন</string>
+    <string name="cd_benefits">সুবিধা</string>
+    <string name="cd_bluetooth">ব্লুটুথ</string>
+    <string name="cd_cancel">বাতিল</string>
+    <string name="cd_checking_battery_optimization">ব্যাটারি অপ্টিমাইজেশন পরীক্ষা করা হচ্ছে</string>
+    <string name="cd_close">বন্ধ করুন</string>
+    <string name="cd_connected_peers">সংযুক্ত পিয়ার</string>
+    <string name="cd_decrease_precision">নির্ভুলতা কমান</string>
+    <string name="cd_encrypted">এন্ড-টু-এন্ড এনক্রিপ্ট করা</string>
+    <string name="cd_end_to_end_encryption">এন্ড-টু-এন্ড এনক্রিপশন</string>
+    <string name="cd_error">ত্রুটি</string>
+    <string name="cd_file">ফাইল</string>
+    <string name="cd_geohash_participants">জিওহ্যাশ অংশগ্রহণকারী</string>
+    <string name="cd_handshake_failed">হ্যান্ডশেক ব্যর্থ</string>
+    <string name="cd_handshake_in_progress">হ্যান্ডশেক চলছে</string>
+    <string name="cd_image">ছবি</string>
+    <string name="cd_image_index_of">ছবি %1$d এর %2$d</string>
+    <string name="cd_increase_precision">নির্ভুলতা বাড়ান</string>
+    <string name="cd_leave_channel">চ্যানেল ছেড়ে দিন</string>
+    <string name="cd_link">লিঙ্ক</string>
+    <string name="cd_location_services">অবস্থান সেবা</string>
+    <string name="cd_mining_pow">মাইনিং PoW</string>
+    <string name="cd_nostr_reachable">Nostr এর মাধ্যমে পৌঁছানো যায়</string>
+    <string name="cd_not_supported_battery_optimization">ব্যাটারি অপ্টিমাইজেশন সমর্থিত নয়</string>
+    <string name="cd_offline_favorite">প্রিয় (অফলাইন)</string>
+    <string name="cd_offline_mesh_chat">অফলাইন মেশ চ্যাট</string>
+    <string name="cd_online_geohash_channels">অনলাইন জিওহ্যাশ চ্যানেল</string>
+    <string name="cd_open_map">মানচিত্র খুলুন</string>
+    <string name="cd_pause_voice">বিরাম</string>
+    <string name="cd_pick_file">ফাইল নির্বাচন করুন</string>
+    <string name="cd_pick_media">মিডিয়া নির্বাচন করুন</string>
+    <string name="cd_play_voice">প্লে করুন</string>
+    <string name="cd_pow_enabled">PoW সক্রিয়</string>
+    <string name="cd_privacy">গোপনীয়তা</string>
+    <string name="cd_privacy_protected">গোপনীয়তা সুরক্ষিত</string>
+    <string name="cd_proof_of_work">প্রুফ অফ ওয়ার্ক</string>
+    <string name="cd_reachable_via_nostr">Nostr এর মাধ্যমে পৌঁছানো যায়</string>
+    <string name="cd_ready_for_handshake">হ্যান্ডশেকের জন্য প্রস্তুত</string>
+    <string name="cd_record_voice">ভয়েস বার্তা রেকর্ড করুন</string>
+    <string name="cd_remove_bookmark">বুকমার্ক সরান</string>
+    <string name="cd_remove_favorite">প্রিয় থেকে সরান</string>
+    <string name="cd_save_current_image">বর্তমান ছবি সংরক্ষণ করুন</string>
+    <string name="cd_scroll_to_bottom">নিচে স্ক্রল করুন</string>
+    <string name="cd_select_geohash">জিওহ্যাশ নির্বাচন করুন</string>
+    <string name="cd_selected">নির্বাচিত</string>
+    <string name="cd_teleport">টেলিপোর্ট</string>
+    <string name="cd_teleported">টেলিপোর্ট করা হয়েছে</string>
+    <string name="cd_toggle_bookmark">বুকমার্ক টগল করুন</string>
+    <string name="cd_tor_status">Tor অবস্থা</string>
+    <string name="cd_unread_message">অপঠিত বার্তা</string>
+    <string name="cd_unread_private_messages">অপঠিত ব্যক্তিগত বার্তা</string>
+    <string name="cd_warning">সতর্কতা</string>
+    <string name="channel_password_hint">পাসওয়ার্ড</string>
+    <string name="channels">চ্যানেল</string>
+    <string name="chat_back">ফিরে যান</string>
+    <string name="chat_channel_prefix">চ্যানেল: %1$s</string>
+    <string name="chat_leave">ছেড়ে দিন</string>
+    <string name="check_again">আবার পরীক্ষা করুন</string>
+    <string name="checking_bluetooth_status">ব্লুটুথ অবস্থা পরীক্ষা করা হচ্ছে …</string>
+    <string name="checking_location_services">অবস্থান সেবা পরীক্ষা করা হচ্ছে …</string>
+    <string name="checking_permissions">অনুমতি পরীক্ষা করা হচ্ছে …</string>
+    <string name="choose_action_message_or_user">এই বার্তা বা ব্যবহারকারীর জন্য অ্যাকশন নির্বাচন করুন</string>
+    <string name="choose_action_user">এই ব্যবহারকারীর জন্য অ্যাকশন নির্বাচন করুন</string>
+    <string msgid="406453423630273620" name="close_drawer">"নেভিগেশন মেনু বন্ধ করুন"</string>
+    <string name="close_plain">বন্ধ করুন</string>
+    <string msgid="7573152094250666567" name="close_sheet">"শিট বন্ধ করুন"</string>
+    <string name="close_with_emoji">❌ বন্ধ করুন</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">সক্ষম করুন</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">আপনি Google Play পরিষেবা সক্ষম না করা পর্যন্ত %1$s কাজ করবে না।</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play পরিষেবা সক্ষম করুন</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">ইনস্টল করুন</string>
+    <string name="common_google_play_services_install_text">Google Play পরিষেবা ছাড়া %1$s চলবে না, যা আপনার ডিভাইসে অনুপস্থিত।</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play পরিষেবা পান</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play পরিষেবার উপলভ্যতা</string>
+    <string name="common_google_play_services_notification_ticker">Google Play পরিষেবার ত্রুটি</string>
+    <string name="common_google_play_services_unknown_issue">Google Play পরিষেবাগুলির সাথে %1$s এর সমস্যা হচ্ছে৷ অনুগ্রহ করে আবার চেষ্টা করুন৷</string>
+    <string name="common_google_play_services_unsupported_text">Google Play পরিষেবা ছাড়া %1$s চলবে না, যেটি আপনার ডিভাইসে সমর্থিত নয়৷</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">আপডেট করুন</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">আপনি Google Play পরিষেবা আপডেট না করা পর্যন্ত %1$s চলবে না।</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play পরিষেবা আপডেট করুন</string>
+    <string name="common_google_play_services_updating_text">Google Play পরিষেবা ছাড়া %1$s চলবে না যা বর্তমানে আপডেট হচ্ছে।</string>
+    <string name="common_google_play_services_wear_update_text">Google Play পরিষেবার নতুন ভার্সন প্রয়োজন৷ খুব শীঘ্রই এটা নিজেই আপডেট হবে৷</string>
+    <string name="common_open_on_phone">ফোনে খুলুন</string>
+    <string name="common_signin_button_text">সাইন-ইন করুন</string>
+    <string name="common_signin_button_text_long">Google এর মাধ্যমে সাইন-ইন করুন</string>
+    <string name="continue_btn">চালিয়ে যান</string>
+    <string name="debug_bluetooth_roles">ব্লুটুথ ভূমিকা</string>
+    <string name="debug_clear">সাফ করুন</string>
+    <string name="debug_connect">সংযোগ করুন</string>
+    <string name="debug_connected_devices">সংযুক্ত ডিভাইস</string>
+    <string name="debug_connections_fmt">সংযোগ: %1$d / %2$d</string>
+    <string name="debug_debug_console">ডিবাগ কনসোল</string>
+    <string name="debug_derived_p_fmt">উৎপন্ন P: %1$s • আনুমানিক সর্বোচ্চ উপাদান: %2$s</string>
+    <string name="debug_direct_suffix"> • সরাসরি</string>
+    <string name="debug_disconnect">সংযোগ বিচ্ছিন্ন করুন</string>
+    <string name="debug_gatt_client">GATT ক্লায়েন্ট</string>
+    <string name="debug_gatt_server">GATT সার্ভার</string>
+    <string name="debug_max_client">সর্বোচ্চ ক্লায়েন্ট</string>
+    <string name="debug_max_gcs_filter_size_fmt">সর্বোচ্চ GCS ফিল্টার আকার: %1$d বাইট (128–1024)</string>
+    <string name="debug_max_overall">সর্বোচ্চ সামগ্রিক</string>
+    <string name="debug_max_packets_per_sync_fmt">প্রতি সিঙ্কে সর্বোচ্চ প্যাকেট: %1$d</string>
+    <string name="debug_max_server">সর্বোচ্চ সার্ভার</string>
+    <string name="debug_none">কোনটি নেই</string>
+    <string name="debug_our_device_id_fmt">আমাদের ডিভাইস ID: %1$s</string>
+    <string name="debug_overall_connections_fmt">সংযোগ: %1$d / %2$d</string>
+    <string name="debug_packet_relay">প্যাকেট রিলে</string>
+    <string name="debug_recent_scan_results">সাম্প্রতিক স্ক্যান করা ডিভাইস</string>
+    <string name="debug_relays_window_fmt">শেষ 10s: %1$d • 1m: %2$d • 15m: %3$d</string>
+    <string name="debug_role_client">ক্লায়েন্ট হিসেবে (আমরা সংযোগ করি)</string>
+    <string name="debug_role_server">সার্ভার হিসেবে (আমরা হোস্ট করি)</string>
+    <string name="debug_roles_hint">ভূমিকা চালু/বন্ধ করুন এবং নিষ্ক্রিয় করার সময় সমস্ত সংযোগ বন্ধ করুন</string>
+    <string name="debug_since_start_fmt">শুরু থেকে: %1$d</string>
+    <string name="debug_sync_settings">সিঙ্ক সেটিংস</string>
+    <string name="debug_target_fpr_fmt">লক্ষ্য FPR: %1$.2f%%</string>
+    <string name="debug_tools">ডিবাগ টুল</string>
+    <string name="debug_tools_desc">ডায়াগনস্টিক এবং নিয়ন্ত্রণের জন্য ডেভেলপার টুল</string>
+    <string name="debug_verbose_hint">পিয়ার জয়েন/লিভ, সংযোগ দিক, প্যাকেট ফরওয়ার্ডিং এবং রিলে লগ করে</string>
+    <string name="debug_verbose_logging">বিস্তারিত লগিং</string>
+    <string msgid="8038256446254964252" name="default_error_message">"ভুল ইনপুট"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"পপ-আপ উইন্ডো"</string>
+    <string name="disable_battery_optimization">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
+    <string name="disable_location_services">অবস্থান সেবা নিষ্ক্রিয় করুন</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"ড্রপডাউন মেনু"</string>
+    <string name="emergency_clear_hint">সমস্ত ডেটা সাফ করতে তিনবার ট্যাপ করুন</string>
+    <string name="enable_bluetooth">ব্লুটুথ সক্রিয় করুন</string>
+    <string name="enable_location_services">অবস্থান সেবা সক্রিয় করুন</string>
+    <string name="file_unavailable">[ফাইল অনুপলব্ধ]</string>
+    <string name="file_viewer_name">📄 %1$s</string>
+    <string name="file_viewer_open_save">📂 খুলুন / সংরক্ষণ করুন</string>
+    <string name="file_viewer_size">📏 আকার: %1$s</string>
+    <string name="file_viewer_title">📎 ফাইল প্রাপ্ত</string>
+    <string name="file_viewer_type">🏷️ ধরণ: %1$s</string>
+    <string name="finding_nearby_channels">কাছাকাছি চ্যানেল খোঁজা হচ্ছে …</string>
+    <string name="fingerprint_copy">copy</string>
+    <string name="fingerprint_mark_verified">mark as verified</string>
+    <string name="fingerprint_no_peer">open a private chat to view fingerprints</string>
+    <string name="fingerprint_not_verified_label">not verified</string>
+    <string name="fingerprint_not_verified_message_fmt">compare these fingerprints with %1$s using a secure channel.</string>
+    <string name="fingerprint_pending">handshake pending</string>
+    <string name="fingerprint_start_handshake">start handshake</string>
+    <string name="fingerprint_status_encrypted">encrypted</string>
+    <string name="fingerprint_status_failed">handshake failed</string>
+    <string name="fingerprint_status_handshaking">handshaking</string>
+    <string name="fingerprint_status_uninitialized">not encrypted</string>
+    <string name="fingerprint_status_verified">encrypted &amp; verified</string>
+    <string name="fingerprint_their">their fingerprint</string>
+    <string name="fingerprint_verified_label">verified</string>
+    <string name="fingerprint_verified_message">you have verified this persons identity.</string>
+    <string name="fingerprint_yours">your fingerprint</string>
+    <string name="geohash_people_header">মানুষ</string>
+    <string name="geohash_placeholder">জিওহ্যাশ</string>
+    <string name="grant_location_permission">অবস্থান অনুমতি দিন</string>
+    <string name="grant_permissions">অনুমতি দিন</string>
+    <string name="image_page_of">ছবি %1$d এর %2$d</string>
+    <string name="image_save_failed">ছবি সংরক্ষণ করতে ব্যর্থ</string>
+    <string name="image_saved_to_downloads">ছবি \"Downloads\" এ সংরক্ষিত</string>
+    <string name="image_star">image/*</string>
+    <string name="image_unavailable">ছবি অনুপলব্ধ</string>
+    <string msgid="6827826412747255547" name="in_progress">"কাজ চলছে"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"কয়েকটি বিকল্প বেছে নেওয়া হয়েছে"</string>
+    <string name="initializing_mesh_network">মেশ নেটওয়ার্ক শুরু করা হচ্ছে</string>
+    <string name="invalid_geohash">অবৈধ জিওহ্যাশ</string>
+    <string name="join">যোগ দিন</string>
+    <string name="join_channel">চ্যানেলে যোগ দিন</string>
+    <string name="leave_channel">ছেড়ে দিন</string>
+    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_channels_desc">জিওহ্যাশ চ্যানেলের মাধ্যমে আপনার কাছাকাছি মানুষদের সাথে চ্যাট করুন। শুধুমাত্র রূঢ় জিওহ্যাশ শেয়ার করা হয়, সঠিক GPS ডেটা নয়। গোপনীয়তার জন্য দয়া করে এই ভিউ স্ক্রিনশট করবেন না বা শেয়ার করবেন না।</string>
+    <string name="location_channels_title">#অবস্থান চ্যানেল</string>
+    <string name="location_explanation">MeshWave আপনার অবস্থান ট্র্যাক করে না।\n\nব্লুটুথ স্ক্যানিং এবং জিওহ্যাশ চ্যাট বৈশিষ্ট্যের জন্য অবস্থান সেবা প্রয়োজন।</string>
+    <string name="location_level_block">ব্লক</string>
+    <string name="location_level_city">শহর</string>
+    <string name="location_level_neighborhood">আশপাশ</string>
+    <string name="location_level_province">প্রদেশ</string>
+    <string name="location_level_region">অঞ্চল</string>
+    <string name="location_needs_bullets">• ব্লুটুথ ডিভাইস স্ক্যানিং\n• মেশ নেটওয়ার্কে কাছাকাছি ব্যবহারকারী আবিষ্কার\n• জিওহ্যাশ চ্যাট বৈশিষ্ট্য\n• কোন ট্র্যাকিং বা অবস্থান সংগ্রহ নেই</string>
+    <string name="location_needs_for">MeshWave এর জন্য অবস্থান সেবা প্রয়োজন:</string>
+    <string name="location_permission_denied">অবস্থান অনুমতি প্রত্যাখ্যাত। অবস্থান চ্যানেল ব্যবহার করতে সেটিংসে সক্ষম করুন।</string>
+    <string name="location_permission_granted">\u2713 অবস্থান অনুমতি দেওয়া হয়েছে</string>
+    <string name="location_services_required">অবস্থান সেবা প্রয়োজন</string>
+    <string name="location_services_unavailable">অবস্থান সেবা অনুপলব্ধ</string>
+    <string name="location_tracking_warning">MeshWave আপনার অবস্থান ট্র্যাক করে না</string>
+    <string name="location_unavailable_explanation">এই ডিভাইসে অবস্থান সেবা উপলব্ধ নেই। এটি অস্বাভাবিক কারণ অবস্থান সেবা Android ডিভাইসে স্ট্যান্ডার্ড।\n\nব্লুটুথ স্ক্যানিং সঠিকভাবে কাজ করার জন্য MeshWave এর অবস্থান সেবা প্রয়োজন (Android প্রয়োজনীয়তা)। এটি ছাড়া অ্যাপ কাছাকাছি ব্যবহারকারী আবিষ্কার করতে পারে না।</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"স্ক্রিনের নিচে অ্যাটাচ করা শিট আড়াল করুন"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"স্ক্রিনের নিচে অ্যাটাচ করা শিট বাতিল করুন"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"টেনে আনার হ্যান্ডেল"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"স্ক্রিনের নিচে অ্যাটাচ করা শিট বড় করুন"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"স্ক্রিনের নিচে অ্যাটাচ করা শিট"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"উল্লেখ করা তারিখ"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"উল্লেখ করা তারিখ: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"প্রত্যাশিত প্যাটার্নের সাথে তারিখ মিলছে না: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"এই তারিখ লেখা যাবে না: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"প্রত্যাশিত বছরের রেঞ্জের বাইরের তারিখ %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"তারিখ"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"কোনওটিই নয়"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"তারিখ বেছে নিন"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"বেছে নেওয়া তারিখ"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"বর্তমানে বেছে নেওয়া হয়েছে: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"নেভিগেট করে %1$s বছরে যান"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"কোনওটিই নয়"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"আগের বছরগুলি দেখতে স্ক্রল করুন"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"পরের বছরগুলি দেখতে স্ক্রল করুন"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"ক্যালেন্ডার ইনপুট মোডে বদল করুন"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"একটি বছর বেছে নিতে সোয়াইপ করুন অথবা দিন বেছে নেওয়ার বিকল্পে ফিরে যেতে ট্যাপ করুন"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"টেক্সট ইনপুট মোডে বদল করুন"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"আগামী মাসে পরিবর্তন করুন"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"আগের মাসে পরিবর্তন করুন"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"কোনও একটি বছর বেছে নিতে বদল করুন"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"তারিখ বেছে নিন"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"আজ"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"বছর বেছে নেওয়ার তালিকা দেখা যাচ্ছে"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"তারিখের ব্যাপ্তি সম্পর্কিত ইনপুট ভুল দেওয়া আছে"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"তারিখ লিখুন"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"সীমার মধ্যে"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"শেষ হওয়ার তারিখ"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"পরের মাস দেখতে স্ক্রল করুন"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"আগের মাস দেখতে স্ক্রল করুন"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"শুরুর তারিখ"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"তারিখ বেছে নিন"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"ডায়ালগ"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"আড়াল করা হয়েছে"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"বড় করা হয়েছে"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"ড্রপডাউন মেনু টগল করুন"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"সার্চ করুন"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"বাতিল করুন"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"নিচে দেওয়া সাজেশন"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"ঘণ্টা"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d ঘণ্টা"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"ঘণ্টা বেছে নিন"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$dটা"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"এত ঘণ্টার জন্য"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"মিনিট"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"মিনিট বেছে নিন"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d মিনিট"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"এত মিনিটের জন্য"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"AM বা PM বেছে নিন"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"টুলটিপ দেখান"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"টুলটিপ"</string>
+    <string msgid="2792228137354697160" name="mc2_snackbar_pane_title">"সতর্কতা"</string>
+    <string name="media_type_file">ফাইল</string>
+    <string name="media_type_image">ছবি</string>
+    <string name="mention">উল্লেখ</string>
+    <string name="mesh_label">মেশ</string>
+    <string name="mesh_service_notification_content">মেশ চলছে — %1$d পিয়ার</string>
+    <string name="message_hint">বার্তা টাইপ করুন…</string>
+    <string msgid="542007171693138492" name="navigation_menu">"নেভিগেশন মেনু"</string>
+    <string name="nickname_hint">ডাকনাম</string>
+    <string name="no_one_connected">কেউ সংযুক্ত নেই</string>
+    <string name="nobody_around">কেউ আশেপাশে নেই …</string>
+    <string msgid="6610465462668679431" name="not_selected">"বেছে নেওয়া হয়নি"</string>
+    <string name="notification_active_peers_many">কাছাকাছি %1$d জন</string>
+    <string name="notification_active_peers_one">কাছাকাছি ১ জন</string>
+    <string name="notification_active_peers_title">👥 কাছাকাছি MeshWaveter!</string>
+    <string name="notification_and_more">এবং %1$d আরো</string>
+    <string name="notification_geohash_summary_text">%2$d অবস্থান থেকে %1$d বার্তা</string>
+    <string name="notification_geohash_summary_title">MeshWave – অবস্থান চ্যাট</string>
+    <string name="notification_geohash_summary_title_mentions">MeshWave – %1$d উল্লেখ</string>
+    <string name="notification_joined_conversation">%1$s কথোপকথনে যোগ দিয়েছে</string>
+    <string name="notification_mentions_in">%1$s এ উল্লিখিত</string>
+    <string name="notification_mentions_in_more">%1$s এ উল্লিখিত (+%2$d আরো)</string>
+    <string name="notification_mentions_in_plural">%2$s এ %1$d উল্লেখ</string>
+    <string name="notification_mesh_mention_title_plural">মেশ চ্যাটে %1$d উল্লেখ</string>
+    <string name="notification_mesh_mention_title_singular">মেশ চ্যাটে উল্লিখিত</string>
+    <string name="notification_messages_from_people">%2$d জন থেকে %1$d বার্তা</string>
+    <string name="notification_messages_in">%1$s এ বার্তা</string>
+    <string name="notification_more_conversations">এবং %1$d আরো কথোপকথন</string>
+    <string name="notification_more_locations">এবং %1$d আরো অবস্থান</string>
+    <string name="notification_new_activity_in">%1$s এ নতুন কার্যকলাপ</string>
+    <string name="notification_new_location_messages">নতুন অবস্থান বার্তা</string>
+    <string name="notification_new_messages">নতুন বার্তা</string>
+    <string name="notification_sent_file">📎 একটি ফাইল পাঠিয়েছে</string>
+    <string name="notification_sent_image">📷 একটি ছবি পাঠিয়েছে</string>
+    <string name="notification_sent_voice">🎤 একটি ভয়েস বার্তা পাঠিয়েছে</string>
+    <string name="notification_summary_more">এবং %1$d আরো</string>
+    <string name="online_users">অনলাইন ব্যবহারকারী</string>
+    <string name="open_location_settings">অবস্থান সেটিংস খুলুন</string>
+    <string name="open_settings">সেটিংস খুলুন</string>
+    <string name="pan_zoom_instruction">জিওহ্যাশ নির্বাচন করতে প্যান এবং জুম করুন</string>
+    <string name="people">মানুষ</string>
+    <string name="perm_battery_desc">MeshWave নির্ভরযোগ্যভাবে ব্যাকগ্রাউন্ডে চলে এবং মেশ নেটওয়ার্ক সংযোগ বজায় রাখে তা নিশ্চিত করতে ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
+    <string name="perm_battery_system">MeshWave কে ব্যাটারি সীমাবদ্ধতা ছাড়াই চলার অনুমতি দিন</string>
+    <string name="perm_location_desc">ব্লুটুথের মাধ্যমে কাছাকাছি MeshWave ব্যবহারকারী আবিষ্কার করার জন্য Android এর প্রয়োজন</string>
+    <string name="perm_location_system">MeshWave এর কাছাকাছি ডিভাইস স্ক্যান করার জন্য এটি প্রয়োজন</string>
+    <string name="perm_nearby_devices_desc">ব্লুটুথের মাধ্যমে MeshWave ব্যবহারকারী আবিষ্কার করতে প্রয়োজন</string>
+    <string name="perm_nearby_devices_system">MeshWave কে কাছাকাছি ডিভাইসের সাথে সংযোগ করার অনুমতি দিন</string>
+    <string name="perm_notifications_desc">ব্যক্তিগত বার্তা পেলে বিজ্ঞপ্তি পান</string>
+    <string name="perm_notifications_system">MeshWave কে আপনাকে বিজ্ঞপ্তি পাঠানোর অনুমতি দিন</string>
+    <string name="perm_type_battery_optimization">ব্যাটারি অপ্টিমাইজেশন</string>
+    <string name="perm_type_microphone">মাইক্রোফোন</string>
+    <string name="perm_type_nearby_devices">কাছাকাছি ডিভাইস</string>
+    <string name="perm_type_notifications">বিজ্ঞপ্তি</string>
+    <string name="perm_type_other">অন্যান্য</string>
+    <string name="perm_type_precise_location">সঠিক অবস্থান</string>
+    <string name="permission_bluetooth_rationale">ইন্টারনেট ছাড়াই অন্যদের সাথে সরাসরি চ্যাট করার জন্য ব্লুটুথ অনুমতি প্রয়োজন।</string>
+    <string name="permission_location_rationale">ব্লুটুথের মাধ্যমে কাছাকাছি ডিভাইস খুঁজে পেতে অবস্থান অনুমতি প্রয়োজন।</string>
+    <string name="permission_notification_rationale">নতুন বার্তা সম্পর্কে আপনাকে জানাতে বিজ্ঞপ্তি অনুমতি প্রয়োজন।</string>
+    <string name="permissions_header">অনুমতি</string>
+    <string name="pick_file">ফাইল নির্বাচন করুন</string>
+    <string name="pick_image">ছবি নির্বাচন করুন</string>
+    <string name="pow_label_format">pow: %1$dbit</string>
+    <string name="pow_mining_ellipsis">মাইনিং …</string>
+    <string name="pow_time_estimate">(~%1$s)</string>
+    <string name="privacy_bullets">• কোন ট্র্যাকিং বা ডেটা সংগ্রহ নেই\n• ব্লুটুথ মেশ চ্যাট সম্পূর্ণ অফলাইন\n• জিওহ্যাশ চ্যাট ইন্টারনেট ব্যবহার করে</string>
+    <string name="privacy_first">গোপনীয়তা প্রথম</string>
+    <string name="privacy_protected">আপনার গোপনীয়তা সুরক্ষিত</string>
+    <string name="pwd_label">পাসওয়ার্ড</string>
+    <string name="pwd_prompt_message">চ্যানেল %1$s পাসওয়ার্ড দিয়ে সুরক্ষিত। যোগ দিতে পাসওয়ার্ড লিখুন।</string>
+    <string name="pwd_prompt_title">চ্যানেল পাসওয়ার্ড লিখুন</string>
+    <string msgid="5941395253238309765" name="range_end">"রেঞ্জ শেষ"</string>
+    <string msgid="7097486360902471446" name="range_start">"রেঞ্জ শুরু"</string>
+    <string name="retry">আবার চেষ্টা করুন</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"সার্চ করুন"</string>
+    <string name="security_verification_title">security verification</string>
+    <string name="select">নির্বাচন করুন</string>
+    <string msgid="6043586758067023" name="selected">"বেছে নেওয়া হয়েছে"</string>
+    <string name="send_message">পাঠান</string>
+    <string name="setting_up_bluetooth">ব্লুটুথ মেশ নেটওয়ার্ক সেটআপ করা হচ্ছে …</string>
+    <string name="setup_not_complete">সেটআপ সম্পূর্ণ নয়</string>
+    <string name="should_take_seconds">এটি মাত্র কয়েক সেকেন্ড সময় নেওয়া উচিত</string>
+    <string name="show_commands">কমান্ড দেখান</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"সতর্কতা"</string>
+    <string msgid="4139871816613051306" name="state_empty">"ফাঁকা"</string>
+    <string msgid="5834637030682409883" name="state_off">"বন্ধ আছে"</string>
+    <string msgid="1490883874751719580" name="state_on">"চালু আছে"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"সুইচ"</string>
+    <string msgid="1672349317127674378" name="tab">"ট্যাব"</string>
+    <string name="teleport">টেলিপোর্ট</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> শতাংশ।"</string>
+    <string name="toast_failed_to_save_image">ছবি সংরক্ষণ করতে ব্যর্থ</string>
+    <string name="toast_image_saved">ছবি \"Downloads\" এ সংরক্ষিত</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"টুলটিপ"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"টুলটিপ দেখুন"</string>
+    <string name="try_again">আবার চেষ্টা করুন</string>
+    <string name="type_a_message_placeholder">বার্তা টাইপ করুন …</string>
+    <string name="unknown">অজানা</string>
+    <string name="verify_camera_permission">camera permission is needed to scan qr codes</string>
+    <string name="verify_mutual_match_body">You and %1$s verified each other</string>
+    <string name="verify_mutual_match_title">Mutual verification</string>
+    <string name="verify_mutual_system_message">mutual verification with %1$s</string>
+    <string name="verify_my_qr_title">scan to verify me</string>
+    <string name="verify_paste_label">paste verification url</string>
+    <string name="verify_qr_unavailable">qr unavailable</string>
+    <string name="verify_remove">remove verification</string>
+    <string name="verify_request_camera">enable camera</string>
+    <string name="verify_scan_prompt_friend">scan someone elses qr</string>
+    <string name="verify_scan_someone">scan someone elses qr</string>
+    <string name="verify_scanned">verification requested</string>
+    <string name="verify_show_my_qr">show my qr</string>
+    <string name="verify_success_body">You verified %1$s</string>
+    <string name="verify_success_system_message">verified %1$s</string>
+    <string name="verify_success_title">Verified</string>
+    <string name="verify_title">verify</string>
+    <string name="verify_validate">validate</string>
+    <string name="version_prefix">v%1$s</string>
+    <string name="you_suffix"> (আপনি)</string>
+    <string name="your_network">নেটওয়ার্ক</string>
+</resources>

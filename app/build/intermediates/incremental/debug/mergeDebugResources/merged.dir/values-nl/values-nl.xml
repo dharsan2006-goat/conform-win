@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="location_notes_title">
+    <item quantity="one">#%1$s ± 1 • %2$d notitie</item>
+    <item quantity="other">#%1$s ± 1 • %2$d notities</item>
+  </plurals>
+    <plurals name="notification_and_more">
+        <item quantity="one">en %d meer</item>
+        <item quantity="other">en %d meer</item>
+    </plurals>
+    <plurals name="people_count">
+        <item quantity="one">1 persoon</item>
+        <item quantity="other">%d personen</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klaar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alles tonen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"UIT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AAN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Functie +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spatie"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Delen met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string name="about_appearance">uiterlijk</string>
+    <string name="about_dark">donker</string>
+    <string name="about_debug_settings">Debug-instellingen</string>
+    <string name="about_e2e_desc">Privéberichten zijn versleuteld. Kanaalberichten zijn openbaar.</string>
+    <string name="about_e2e_title">End-to-end-versleuteling</string>
+    <string name="about_emergency_tip">Tip: Driedubbel klik op de app-titel om alle opgeslagen gegevens inclusief berichten, sleutels en instellingen noodmatig te verwijderen.</string>
+    <string name="about_emergency_title">Noodgegevensverwijdering</string>
+    <string name="about_footer">Open Source • Privacy First • Gedecentraliseerd</string>
+    <string name="about_last">Laatste: %1$s</string>
+    <string name="about_light">licht</string>
+    <string name="about_network">netwerk</string>
+    <string name="about_offline_mesh_desc">Communiceer rechtstreeks via Bluetooth LE zonder internet of servers. Berichten worden doorgestuurd via apparaten in de buurt om het bereik te vergroten.</string>
+    <string name="about_offline_mesh_title">Offline meshchat</string>
+    <string name="about_online_geohash_desc">Maak contact met mensen in uw omgeving met geohash-gebaseerde kanalen. Breid het mesh uit met openbare internetrelays.</string>
+    <string name="about_online_geohash_title">Online geohash-kanalen</string>
+    <string name="about_pow">proof of work</string>
+    <string name="about_pow_desc_extreme">extreem - aanzienlijke berekening vereist</string>
+    <string name="about_pow_desc_high">hoog - sterke spambescherming</string>
+    <string name="about_pow_desc_low">laag - basis spambescherming</string>
+    <string name="about_pow_desc_medium">gemiddeld - goede spambescherming</string>
+    <string name="about_pow_desc_none">geen proof of work vereist</string>
+    <string name="about_pow_desc_very_high">zeer hoog - kan vertragingen veroorzaken</string>
+    <string name="about_pow_desc_very_low">zeer laag - minimale spambescherming</string>
+    <string name="about_pow_difficulty">moeilijkheidsgraad: %1$d bits (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">moeilijkheidsgraad %1$d vereist ~%2$s hash-pogingen</string>
+    <string name="about_pow_off">PoW uit</string>
+    <string name="about_pow_on">PoW aan</string>
+    <string name="about_pow_tip">voeg proof of work toe aan geohash-berichten voor spamafschrikking.</string>
+    <string name="about_system">systeem</string>
+    <string name="about_tagline">gedecentraliseerde meshcommunicatie met end-to-end-versleuteling</string>
+    <string name="about_tor_off">Tor uit</string>
+    <string name="about_tor_on">Tor aan</string>
+    <string name="about_tor_route">route internet via Tor voor verbeterde privacy.</string>
+    <string name="about_tor_status">Tor-status: %1$s, bootstrap %2$d%%</string>
+    <string name="action_block_subtitle">blokkeer alle berichten van deze gebruiker</string>
+    <string name="action_block_title">%1$s blokkeren</string>
+    <string name="action_copy_message_subtitle">kopieer dit bericht naar klembord</string>
+    <string name="action_copy_message_title">bericht kopiëren</string>
+    <string name="action_hug_subtitle">stuur een vriendelijke knuffel</string>
+    <string name="action_hug_title">%1$s knuffelen</string>
+    <string name="action_slap_subtitle">stuur een speelse tik</string>
+    <string name="action_slap_title">%1$s een tik geven</string>
+    <string name="app_brand">MeshWave/</string>
+    <string name="app_name">MeshWave</string>
+    <string name="at_nickname">@%1$s</string>
+    <string name="at_symbol">@</string>
+    <string msgid="389117264260014992" name="autofill">"Automatisch invullen"</string>
+    <string name="back">Terug</string>
+    <string name="battery_benefits_short">• betrouwbare berichtbezorging\n• onderhoudt meshconnectiviteit\n• voorkomt verbindingsonderbrekingen</string>
+    <string name="battery_optimization_benefits">• Zorgt voor betrouwbare berichtbezorging\n• Onderhoudt meshnetwerkconnectiviteit\n• Staat berichtrelay op achtergrond toe\n• Voorkomt verbindingsonderbrekingen</string>
+    <string name="battery_optimization_check_again">Opnieuw controleren</string>
+    <string name="battery_optimization_checking">Batterijoptimalisatie controleren</string>
+    <string name="battery_optimization_continue">Doorgaan</string>
+    <string name="battery_optimization_detected">Batterijoptimalisatie gedetecteerd</string>
+    <string name="battery_optimization_detected_title">batterijoptimalisatie gedetecteerd</string>
+    <string name="battery_optimization_disable_button">Batterijoptimalisatie uitschakelen</string>
+    <string name="battery_optimization_disabled">Batterijoptimalisatie uitgeschakeld</string>
+    <string name="battery_optimization_disabled_title">batterijoptimalisatie uitgeschakeld</string>
+    <string name="battery_optimization_enabled_title">Batterijoptimalisatie ingeschakeld</string>
+    <string name="battery_optimization_explanation">MeshWave draait op de achtergrond om meshnetwerkverbindingen met apparaten in de buurt te onderhouden. Batterijoptimalisatie kan deze verbindingen onderbreken, waardoor berichten vertraagd of gemist worden.\n\nHet uitschakelen van batterijoptimalisatie zorgt voor betrouwbare peer-to-peer communicatie.</string>
+    <string name="battery_optimization_explanation_short">MeshWave moet op de achtergrond draaien om meshverbindingen te onderhouden. batterijoptimalisatie kan deze verbindingen onderbreken.</string>
+    <string name="battery_optimization_not_required">Batterijoptimalisatie niet vereist</string>
+    <string name="battery_optimization_not_supported_explanation">Uw apparaat vereist geen batterijoptimalisatie-instellingen. MeshWave zal normaal draaien.</string>
+    <string name="battery_optimization_not_supported_message">Uw apparaat vereist geen batterijoptimalisatie-instellingen. MeshWave zal normaal draaien.</string>
+    <string name="battery_optimization_note">Opmerking: U kunt deze instelling later wijzigen in Android-instellingen > Apps > MeshWave > Batterij</string>
+    <string name="battery_optimization_skip">Nu overslaan</string>
+    <string name="battery_optimization_success_message">MeshWave kan betrouwbaar op de achtergrond draaien</string>
+    <string name="battery_optimization_why_disable">Waarom batterijoptimalisatie uitschakelen?</string>
+    <string name="benefits_of_disabling">Voordelen van uitschakelen</string>
+    <string name="bluetooth_needs_bullets">• Gebruikers in de buurt te ontdekken\n• Meshnetwerkverbindingen te maken\n• Berichten te verzenden en ontvangen\n• Te werken zonder internet of servers</string>
+    <string name="bluetooth_needs_for">MeshWave heeft Bluetooth nodig om:</string>
+    <string name="bluetooth_not_supported">Bluetooth niet ondersteund</string>
+    <string name="bluetooth_required">Bluetooth vereist</string>
+    <string name="bluetooth_unsupported_explanation">Dit apparaat ondersteunt geen Bluetooth Low Energy (BLE), wat vereist is om MeshWave te laten functioneren.\n\nMeshWave heeft BLE nodig om meshnetwerken te maken en te communiceren met apparaten in de buurt zonder internet.</string>
+    <string name="bookmarked">bladwijzer toegevoegd</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Beantwoorden"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Weigeren"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Ophangen"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Inkomend gesprek"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Actief gesprek"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Een inkomend gesprek screenen"</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancel_lower">annuleren</string>
+    <string name="cd_add_bookmark">Bladwijzer toevoegen</string>
+    <string name="cd_add_favorite">Toevoegen aan favorieten</string>
+    <string name="cd_battery_optimization">Batterijoptimalisatie</string>
+    <string name="cd_benefits">Voordelen</string>
+    <string name="cd_bluetooth">Bluetooth</string>
+    <string name="cd_cancel">Annuleren</string>
+    <string name="cd_checking_battery_optimization">Batterijoptimalisatie controleren</string>
+    <string name="cd_close">Sluiten</string>
+    <string name="cd_connected_peers">Verbonden peers</string>
+    <string name="cd_decrease_precision">Precisie verlagen</string>
+    <string name="cd_encrypted">End-to-end versleuteld</string>
+    <string name="cd_end_to_end_encryption">End-to-end-versleuteling</string>
+    <string name="cd_error">Fout</string>
+    <string name="cd_file">Bestand</string>
+    <string name="cd_geohash_participants">Geohash-deelnemers</string>
+    <string name="cd_handshake_failed">Handshake mislukt</string>
+    <string name="cd_handshake_in_progress">Handshake bezig</string>
+    <string name="cd_image">Afbeelding</string>
+    <string name="cd_image_index_of">Afbeelding %1$d van %2$d</string>
+    <string name="cd_increase_precision">Precisie verhogen</string>
+    <string name="cd_leave_channel">Kanaal verlaten</string>
+    <string name="cd_link">Link</string>
+    <string name="cd_location_services">Locatiediensten</string>
+    <string name="cd_mining_pow">Mining-PoW</string>
+    <string name="cd_nostr_reachable">Bereikbaar via Nostr</string>
+    <string name="cd_not_supported_battery_optimization">Batterijoptimalisatie niet ondersteund</string>
+    <string name="cd_offline_favorite">Offline favoriet</string>
+    <string name="cd_offline_mesh_chat">Offline meshchat</string>
+    <string name="cd_online_geohash_channels">Online geohash-kanalen</string>
+    <string name="cd_open_map">Kaart openen</string>
+    <string name="cd_pause_voice">Pauzeren</string>
+    <string name="cd_pick_file">Bestand kiezen</string>
+    <string name="cd_pick_media">Media kiezen</string>
+    <string name="cd_play_voice">Afspelen</string>
+    <string name="cd_pow_enabled">PoW ingeschakeld</string>
+    <string name="cd_privacy">Privacy</string>
+    <string name="cd_privacy_protected">Privacy beschermd</string>
+    <string name="cd_proof_of_work">Proof of Work</string>
+    <string name="cd_reachable_via_nostr">Bereikbaar via Nostr</string>
+    <string name="cd_ready_for_handshake">Klaar voor handshake</string>
+    <string name="cd_record_voice">Spraaknotitie opnemen</string>
+    <string name="cd_remove_bookmark">Bladwijzer verwijderen</string>
+    <string name="cd_remove_favorite">Verwijderen uit favorieten</string>
+    <string name="cd_save_current_image">Huidige afbeelding opslaan</string>
+    <string name="cd_scroll_to_bottom">Naar beneden scrollen</string>
+    <string name="cd_select_geohash">Geohash selecteren</string>
+    <string name="cd_selected">Geselecteerd</string>
+    <string name="cd_teleport">Teleporteren</string>
+    <string name="cd_teleported">Geteleporteerd</string>
+    <string name="cd_toggle_bookmark">Bladwijzer omschakelen</string>
+    <string name="cd_tor_status">Tor-status</string>
+    <string name="cd_unread_message">Ongelezen bericht</string>
+    <string name="cd_unread_private_messages">Ongelezen privéberichten</string>
+    <string name="cd_warning">Waarschuwing</string>
+    <string name="channel_count_prefix"> · ⧉ </string>
+    <string name="channel_password_hint">Wachtwoord</string>
+    <string name="channels">Kanalen</string>
+    <string name="chat_back">terug</string>
+    <string name="chat_channel_prefix">kanaal: %1$s</string>
+    <string name="chat_leave">verlaten</string>
+    <string name="check_again">Opnieuw controleren</string>
+    <string name="checking_bluetooth_status">Bluetooth-status controleren…</string>
+    <string name="checking_location_services">Locatiediensten controleren…</string>
+    <string name="checking_permissions">toestemmingen controleren…</string>
+    <string name="choose_action_message_or_user">kies een actie voor dit bericht of deze gebruiker</string>
+    <string name="choose_action_user">kies een actie voor deze gebruiker</string>
+    <string msgid="406453423630273620" name="close_drawer">"Navigatiemenu sluiten"</string>
+    <string name="close_plain">Sluiten</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Blad sluiten"</string>
+    <string name="close_with_emoji">❌ Sluiten</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aanzetten</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Updaten</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="continue_btn">Doorgaan</string>
+    <string name="debug_bluetooth_roles">Bluetooth-rollen</string>
+    <string name="debug_clear">wissen</string>
+    <string name="debug_connect">verbinden</string>
+    <string name="debug_connected_devices">verbonden apparaten</string>
+    <string name="debug_connections_fmt">verbindingen: %1$d / %2$d</string>
+    <string name="debug_debug_console">debug-console</string>
+    <string name="debug_derived_p_fmt">afgeleide P: %1$s • gesch. max elementen: %2$s</string>
+    <string name="debug_direct_suffix"> • direct</string>
+    <string name="debug_disconnect">verbreken</string>
+    <string name="debug_gatt_client">GATT-client</string>
+    <string name="debug_gatt_server">GATT-server</string>
+    <string name="debug_max_client">max client</string>
+    <string name="debug_max_gcs_filter_size_fmt">max GCS-filtergrootte: %1$d bytes (128–1024)</string>
+    <string name="debug_max_overall">max totaal</string>
+    <string name="debug_max_packets_per_sync_fmt">max pakketten per sync: %1$d</string>
+    <string name="debug_max_server">max server</string>
+    <string name="debug_none">geen</string>
+    <string name="debug_our_device_id_fmt">ons apparaat-ID: %1$s</string>
+    <string name="debug_overall_connections_fmt">verbindingen: %1$d / %2$d</string>
+    <string name="debug_packet_relay">pakketrelay</string>
+    <string name="debug_question_mark">?</string>
+    <string name="debug_recent_scan_results">recente scanresultaten</string>
+    <string name="debug_relays_window_fmt">laatste 10s: %1$d • 1m: %2$d • 15m: %3$d</string>
+    <string name="debug_role_client">als client (wij verbinden)</string>
+    <string name="debug_role_server">als server (wij hosten)</string>
+    <string name="debug_roles_hint">schakel rollen in/uit en sluit alle verbindingen bij uitschakelen</string>
+    <string name="debug_since_start_fmt">sinds start: %1$d</string>
+    <string name="debug_sync_settings">sync-instellingen</string>
+    <string name="debug_target_fpr_fmt">doel-FPR: %1$.2f%%</string>
+    <string name="debug_tools">debug-tools</string>
+    <string name="debug_tools_desc">ontwikkelaarsgereedschap voor diagnostiek en controle</string>
+    <string name="debug_verbose_hint">logt peer deelnames/vertrek, verbindingsrichting, pakketrouting en relays</string>
+    <string name="debug_verbose_logging">uitgebreide logging</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Ongeldige invoer"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-upvenster"</string>
+    <string name="disable_battery_optimization">Batterijoptimalisatie uitschakelen</string>
+    <string name="disable_location_services">locatiediensten uitschakelen</string>
+    <string name="dismiss">sluiten</string>
+    <string name="dot">.</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Dropdownmenu"</string>
+    <string name="emergency_clear_hint">Tik drie keer om alle gegevens te wissen</string>
+    <string name="enable_bluetooth">Bluetooth inschakelen</string>
+    <string name="enable_location_services">locatiediensten inschakelen</string>
+    <string name="file_unavailable">[bestand niet beschikbaar]</string>
+    <string name="file_viewer_name">📄 %1$s</string>
+    <string name="file_viewer_open_save">📂 Openen / Opslaan</string>
+    <string name="file_viewer_size">📏 Grootte: %1$s</string>
+    <string name="file_viewer_title">📎 Bestand ontvangen</string>
+    <string name="file_viewer_type">🏷️ Type: %1$s</string>
+    <string name="finding_nearby_channels">nabije kanalen zoeken…</string>
+    <string name="fingerprint_copy">copy</string>
+    <string name="fingerprint_mark_verified">mark as verified</string>
+    <string name="fingerprint_no_peer">open a private chat to view fingerprints</string>
+    <string name="fingerprint_not_verified_label">not verified</string>
+    <string name="fingerprint_not_verified_message_fmt">compare these fingerprints with %1$s using a secure channel.</string>
+    <string name="fingerprint_pending">handshake pending</string>
+    <string name="fingerprint_start_handshake">start handshake</string>
+    <string name="fingerprint_status_encrypted">encrypted</string>
+    <string name="fingerprint_status_failed">handshake failed</string>
+    <string name="fingerprint_status_handshaking">handshaking</string>
+    <string name="fingerprint_status_uninitialized">not encrypted</string>
+    <string name="fingerprint_status_verified">encrypted &amp; verified</string>
+    <string name="fingerprint_their">their fingerprint</string>
+    <string name="fingerprint_verified_label">verified</string>
+    <string name="fingerprint_verified_message">you have verified this persons identity.</string>
+    <string name="fingerprint_yours">your fingerprint</string>
+    <string name="geohash_people_header">PERSONEN</string>
+    <string name="geohash_placeholder">geohash</string>
+    <string name="grant_location_permission">locatietoestemming verlenen</string>
+    <string name="grant_permissions">Toestemmingen verlenen</string>
+    <string name="hash_symbol">#</string>
+    <string name="image_counter">%1$d / %2$d</string>
+    <string name="image_page_of">Afbeelding %1$d van %2$d</string>
+    <string name="image_save_failed">Opslaan afbeelding mislukt</string>
+    <string name="image_saved_to_downloads">Afbeelding opgeslagen in Downloads</string>
+    <string name="image_star">image/*</string>
+    <string name="image_unavailable">Afbeelding niet beschikbaar</string>
+    <string msgid="6827826412747255547" name="in_progress">"Bezig"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Gedeeltelijk aangevinkt"</string>
+    <string name="initializing_mesh_network">Meshnetwerk initialiseren</string>
+    <string name="invalid_geohash">ongeldige geohash</string>
+    <string name="join">Deelnemen</string>
+    <string name="join_channel">Kanaal deelnemen</string>
+    <string name="leave_channel">Verlaten</string>
+    <string name="loading_location_notes">notities laden…</string>
+    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_channels_desc">chat met mensen in uw buurt via geohash-kanalen. alleen een grove geohash wordt gedeeld, nooit exacte GPS. maak geen screenshot of deel dit scherm niet om uw privacy te beschermen.</string>
+    <string name="location_channels_title">#locatiekanalen</string>
+    <string name="location_explanation">MeshWave volgt NIET uw locatie.\n\nLocatiediensten zijn vereist voor Bluetooth-scanning en voor de geohash-chatfunctie.</string>
+    <string name="location_level_block">blok</string>
+    <string name="location_level_city">stad</string>
+    <string name="location_level_neighborhood">buurt</string>
+    <string name="location_level_province">provincie</string>
+    <string name="location_level_region">regio</string>
+    <string name="location_needs_bullets">• Bluetooth-apparaat scanning\n• Ontdekken van gebruikers in de buurt op meshnetwerk\n• Geohash-chatfunctie\n• Geen tracking of locatieverzameling</string>
+    <string name="location_needs_for">MeshWave heeft locatiediensten nodig voor:</string>
+    <string name="location_notes_description">voeg korte permanente notities toe aan deze locatie zodat andere bezoekers ze kunnen vinden.</string>
+    <string name="location_notes_empty_desc">wees de eerste die een notitie voor deze plek toevoegt.</string>
+    <string name="location_notes_empty_title">nog geen notities</string>
+    <string name="location_notes_input_placeholder">voeg een notitie toe voor deze plek</string>
+    <string name="location_notes_no_relays_desc">notities zijn afhankelijk van geo-relays. controleer de verbinding en probeer opnieuw.</string>
+    <string name="location_notes_no_relays_title">geen geo-relays in de buurt</string>
+    <string name="location_notes_relays_unavailable">geo-relays niet beschikbaar; notities gepauzeerd</string>
+    <string name="location_permission_denied">locatietoestemming geweigerd. schakel in instellingen in om locatiekanalen te gebruiken.</string>
+    <string name="location_permission_granted">\u2713 locatietoestemming verleend</string>
+    <string name="location_services_required">Locatiediensten vereist</string>
+    <string name="location_services_unavailable">Locatiediensten niet beschikbaar</string>
+    <string name="location_tracking_warning">MeshWave volgt NIET uw locatie</string>
+    <string name="location_unavailable_explanation">Locatiediensten zijn niet beschikbaar op dit apparaat. Dit is ongebruikelijk omdat locatiediensten standaard zijn op Android-apparaten.\n\nMeshWave heeft locatiediensten nodig om Bluetooth-scanning goed te laten werken (Android-vereiste). Zonder dit kan de app geen gebruikers in de buurt ontdekken.</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Blad onderaan samenvouwen"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Blad onderaan sluiten"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Handgreep voor slepen"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Blad onderaan uitvouwen"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Blad onderaan"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Ingevulde datum"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Ingevulde datum: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"De datum komt niet overeen met het verwachte patroon: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Datum niet toegestaan: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Datum buiten het verwachte jaarbereik %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Datum"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Geen"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Datum selecteren"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Geselecteerde datum"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Huidige selectie: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Ga naar jaar %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Geen"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Scroll om eerdere jaren te tonen"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Scroll om latere jaren te tonen"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Overschakelen naar agenda-invoermodus"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Swipe om een jaar te selecteren of tik om terug te gaan en een dag te selecteren"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Overschakelen naar tekstinvoermodus"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Naar volgende maand gaan"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Naar vorige maand gaan"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Schakelaar om een jaar te selecteren"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Datum selecteren"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Vandaag"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Jaarselectie zichtbaar"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Ongeldige invoer voor periode"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Datums opgeven"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Binnen bereik"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Einddatum"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Scroll om de volgende maand te tonen"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Scroll om de vorige maand te tonen"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Startdatum"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Datums selecteren"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Dialoogvenster"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Samengevouwen"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Uitgevouwen"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Dropdownmenu aan-/uitzetten"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Zoeken"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Sluiten"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Suggesties hieronder"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Uur"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d uur"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Uur selecteren"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d uur"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"voor uur"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minuut"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Minuten selecteren"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minuten"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"voor minuten"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"AM of PM selecteren"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Tooltip tonen"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Tooltip"</string>
+    <string msgid="2792228137354697160" name="mc2_snackbar_pane_title">"Melding"</string>
+    <string name="media_type_file">Bestand</string>
+    <string name="media_type_image">Afbeelding</string>
+    <string name="mention">vermelden</string>
+    <string name="mention_suggestion_at">@%1$s</string>
+    <string name="mesh_label">mesh</string>
+    <string name="mesh_service_notification_content">Mesh actief — %1$d peers</string>
+    <string name="message_hint">typ een bericht…</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigatiemenu"</string>
+    <string name="nickname_hint">bijnaam</string>
+    <string name="no_one_connected">Niemand verbonden</string>
+    <string name="nobody_around">niemand in de buurt…</string>
+    <string msgid="6610465462668679431" name="not_selected">"Niet geselecteerd"</string>
+    <string name="notification_active_peers_many">%1$d personen in de buurt</string>
+    <string name="notification_active_peers_one">1 persoon in de buurt</string>
+    <string name="notification_active_peers_title">👥 MeshWaveters in de buurt!</string>
+    <string name="notification_and_more">en %1$d meer</string>
+    <string name="notification_file_doc">📄</string>
+    <string name="notification_file_generic">📎</string>
+    <string name="notification_file_pdf">📄</string>
+    <string name="notification_file_ppt">📈</string>
+    <string name="notification_file_xls">📊</string>
+    <string name="notification_file_zip">🗜️</string>
+    <string name="notification_geohash_summary_text">%1$d berichten van %2$d locaties</string>
+    <string name="notification_geohash_summary_title">MeshWave - locatiechats</string>
+    <string name="notification_geohash_summary_title_mentions">MeshWave - %1$d vermeldingen</string>
+    <string name="notification_joined_conversation">%1$s is toegetreden tot het gesprek</string>
+    <string name="notification_mentions_in">Vermeld in %1$s</string>
+    <string name="notification_mentions_in_more">Vermeld in %1$s (+%2$d meer)</string>
+    <string name="notification_mentions_in_plural">%1$d vermeldingen in %2$s</string>
+    <string name="notification_mesh_mention_title_plural">%1$d vermeldingen in meshchat</string>
+    <string name="notification_mesh_mention_title_singular">Vermeld in meshchat</string>
+    <string name="notification_messages_from_people">%1$d berichten van %2$d personen</string>
+    <string name="notification_messages_in">Berichten in %1$s</string>
+    <string name="notification_more_conversations">en %1$d meer conversaties</string>
+    <string name="notification_more_locations">en %1$d meer locaties</string>
+    <string name="notification_new_activity_in">Nieuwe activiteit in %1$s</string>
+    <string name="notification_new_location_messages">Nieuwe locatieberichten</string>
+    <string name="notification_new_messages">Nieuwe berichten</string>
+    <string name="notification_sent_file">📎 heeft een bestand verstuurd</string>
+    <string name="notification_sent_image">📷 heeft een afbeelding verstuurd</string>
+    <string name="notification_sent_voice">🎤 heeft een spraakbericht verstuurd</string>
+    <string name="notification_summary_more">en %1$d meer</string>
+    <string name="online_users">Online gebruikers</string>
+    <string name="open_location_settings">Locatie-instellingen openen</string>
+    <string name="open_settings">Instellingen openen</string>
+    <string name="pan_zoom_instruction">pan en zoom om een geohash te selecteren</string>
+    <string name="people">Personen</string>
+    <string name="perm_battery_desc">Schakel batterijoptimalisatie uit om ervoor te zorgen dat MeshWave betrouwbaar op de achtergrond draait en meshnetwerkverbindingen onderhoudt</string>
+    <string name="perm_battery_system">MeshWave toestaan om zonder batterijbeperkingen te draaien</string>
+    <string name="perm_location_desc">Vereist door Android om MeshWave-gebruikers in de buurt via Bluetooth te ontdekken</string>
+    <string name="perm_location_system">MeshWave heeft dit nodig om te scannen naar apparaten in de buurt</string>
+    <string name="perm_nearby_devices_desc">Vereist om MeshWave-gebruikers via Bluetooth te ontdekken</string>
+    <string name="perm_nearby_devices_system">MeshWave toestaan om verbinding te maken met apparaten in de buurt</string>
+    <string name="perm_notifications_desc">Ontvang meldingen wanneer u privéberichten ontvangt</string>
+    <string name="perm_notifications_system">MeshWave toestaan om u meldingen te sturen</string>
+    <string name="perm_type_battery_optimization">Batterijoptimalisatie</string>
+    <string name="perm_type_microphone">Microfoon</string>
+    <string name="perm_type_nearby_devices">Apparaten in de buurt</string>
+    <string name="perm_type_notifications">Meldingen</string>
+    <string name="perm_type_other">Overig</string>
+    <string name="perm_type_precise_location">Precieze locatie</string>
+    <string name="permission_bluetooth_rationale">Bluetooth-toestemming is vereist voor peer-to-peer berichten zonder internet.</string>
+    <string name="permission_location_rationale">Locatietoestemming is vereist om apparaten in de buurt via Bluetooth te ontdekken.</string>
+    <string name="permission_notification_rationale">Meldingstoestemming is vereist om u te waarschuwen voor nieuwe berichten.</string>
+    <string name="permissions_header">toestemmingen</string>
+    <string name="pick_file">Bestand kiezen</string>
+    <string name="pick_image">Afbeelding kiezen</string>
+    <string name="pow_label_format">pow: %1$dbit</string>
+    <string name="pow_mining_ellipsis">minen…</string>
+    <string name="pow_time_estimate">(~%1$s)</string>
+    <string name="privacy_bullets">• geen tracking of gegevensverzameling\n• Bluetooth-meshchats zijn volledig offline\n• Geohash-chats gebruiken internet</string>
+    <string name="privacy_first">Privacy eerst</string>
+    <string name="privacy_protected">Uw privacy is beschermd</string>
+    <string name="progress_bar_brackets">[%1$s] %2$d%%</string>
+    <string name="progress_empty">░</string>
+    <string name="progress_filled">█</string>
+    <string name="pwd_label">Wachtwoord</string>
+    <string name="pwd_prompt_message">Kanaal %1$s is met een wachtwoord beveiligd. Voer het wachtwoord in om deel te nemen.</string>
+    <string name="pwd_prompt_title">Kanaalwachtwoord invoeren</string>
+    <string msgid="5941395253238309765" name="range_end">"Einde bereik"</string>
+    <string msgid="7097486360902471446" name="range_start">"Start bereik"</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Zoeken"</string>
+    <string name="security_verification_title">security verification</string>
+    <string name="select">selecteren</string>
+    <string msgid="6043586758067023" name="selected">"Geselecteerd"</string>
+    <string name="send_message">Verzenden</string>
+    <string name="setting_up_bluetooth">Bluetooth-meshnetwerk instellen…</string>
+    <string name="setup_not_complete">Installatie niet voltooid</string>
+    <string name="should_take_seconds">Dit zou slechts enkele seconden moeten duren</string>
+    <string name="show_commands">Commando\'s weergeven</string>
+    <string name="skip">Overslaan</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Melding"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Leeg"</string>
+    <string msgid="5834637030682409883" name="state_off">"Uit"</string>
+    <string msgid="1490883874751719580" name="state_on">"Aan"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_delivered">✓✓</string>
+    <string name="status_failed">⚠</string>
+    <string name="status_pending">○</string>
+    <string name="status_read">✓</string>
+    <string name="status_sending">○</string>
+    <string name="status_sent">✓</string>
+    <string msgid="2561197295334830845" name="switch_role">"Overschakelen"</string>
+    <string msgid="1672349317127674378" name="tab">"Tabblad"</string>
+    <string name="teleport">teleporteren</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
+    <string name="toast_failed_to_save_image">Opslaan afbeelding mislukt</string>
+    <string name="toast_image_saved">Afbeelding opgeslagen in Downloads</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"tooltip"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"tooltip tonen"</string>
+    <string name="try_again">Opnieuw proberen</string>
+    <string name="type_a_message_placeholder">typ een bericht…</string>
+    <string name="underscore">_</string>
+    <string name="unknown">onbekend</string>
+    <string name="verify_camera_permission">camera permission is needed to scan qr codes</string>
+    <string name="verify_mutual_match_body">You and %1$s verified each other</string>
+    <string name="verify_mutual_match_title">Mutual verification</string>
+    <string name="verify_mutual_system_message">mutual verification with %1$s</string>
+    <string name="verify_my_qr_title">scan to verify me</string>
+    <string name="verify_paste_label">paste verification url</string>
+    <string name="verify_qr_unavailable">qr unavailable</string>
+    <string name="verify_remove">remove verification</string>
+    <string name="verify_request_camera">enable camera</string>
+    <string name="verify_scan_prompt_friend">scan someone elses qr</string>
+    <string name="verify_scan_someone">scan someone elses qr</string>
+    <string name="verify_scanned">verification requested</string>
+    <string name="verify_show_my_qr">show my qr</string>
+    <string name="verify_success_body">You verified %1$s</string>
+    <string name="verify_success_system_message">verified %1$s</string>
+    <string name="verify_success_title">Verified</string>
+    <string name="verify_title">verify</string>
+    <string name="verify_validate">validate</string>
+    <string name="version_prefix">v%1$s</string>
+    <string name="warning_emoji">⚠️</string>
+    <string name="you_suffix"> (jij)</string>
+    <string name="your_network">Netwerk</string>
+</resources>

@@ -1,0 +1,479 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bitchat.droid"
+4    android:versionCode="32"
+5    android:versionName="1.7.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Internet permissions for Nostr relay connections -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- Bluetooth permissions -->
+16    <uses-permission
+16-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:10:5-95
+17        android:name="android.permission.BLUETOOTH"
+17-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:10:22-65
+18        android:maxSdkVersion="30" />
+18-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:10:66-92
+19    <uses-permission
+19-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:11:5-101
+20        android:name="android.permission.BLUETOOTH_ADMIN"
+20-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:11:22-71
+21        android:maxSdkVersion="30" />
+21-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:11:72-98
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+22-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:12:5-78
+22-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:12:22-75
+23    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+23-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:13:5-76
+23-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:13:22-73
+24    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+24-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:14:5-73
+24-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:14:22-70
+25
+26    <!-- Location permission required for BLE scanning -->
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:17:5-81
+27-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:17:22-78
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:18:5-79
+28-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:18:22-76
+29    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+29-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:19:5-85
+29-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:19:22-82
+30
+31    <!-- Notification permissions -->
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:22:5-77
+32-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:22:22-74
+33    <!-- Signature permission for internal UI shutdown broadcasts -->
+34    <uses-permission android:name="com.bitchat.android.permission.FORCE_FINISH" />
+34-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:24:5-83
+34-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:24:22-80
+35    <!-- Foreground service and boot permissions for long-running background mesh -->
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:26:5-77
+36-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:26:22-74
+37    <!-- Connected device foreground service type for BLE operations (API 34+) -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+38-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:28:5-94
+38-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:28:22-91
+39    <!-- Data sync foreground service type (required when declaring dataSync) -->
+40    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+40-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:30:5-87
+40-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:30:22-84
+41    <!-- Location foreground service type required for BLE scanning in background -->
+42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+42-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:32:5-86
+42-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:32:22-83
+43    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+43-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:33:5-81
+43-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:33:22-78
+44
+45    <!-- Microphone for voice notes -->
+46    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+46-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:36:5-71
+46-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:36:22-68
+47    <!-- Camera for QR verification -->
+48    <uses-permission android:name="android.permission.CAMERA" />
+48-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:38:5-65
+48-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:38:22-62
+49
+50    <!-- Storage permissions for file sharing -->
+51    <uses-permission
+51-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:41:5-107
+52        android:name="android.permission.READ_EXTERNAL_STORAGE"
+52-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:41:22-77
+53        android:maxSdkVersion="28" />
+53-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:41:78-104
+54    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+54-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:42:5-76
+54-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:42:22-73
+55    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+55-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:43:5-75
+55-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:43:22-72
+56    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+56-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:44:5-75
+56-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:44:22-72
+57
+58    <!-- Haptic feedback permission -->
+59    <uses-permission android:name="android.permission.VIBRATE" />
+59-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:47:5-66
+59-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:47:22-63
+60
+61    <!-- Battery optimization permission -->
+62    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+62-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:50:5-95
+62-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:50:22-92
+63
+64    <!-- Hardware features -->
+65    <uses-feature
+65-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:53:5-90
+66        android:name="android.hardware.bluetooth_le"
+66-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:53:19-63
+67        android:required="true" />
+67-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:53:64-87
+68    <uses-feature
+68-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:54:5-87
+69        android:name="android.hardware.bluetooth"
+69-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:54:19-60
+70        android:required="true" />
+70-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:54:61-84
+71    <uses-feature
+71-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:55:5-85
+72        android:name="android.hardware.camera"
+72-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:55:19-57
+73        android:required="false" />
+73-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:55:58-82
+74
+75    <permission
+75-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:57:5-59:47
+76        android:name="com.bitchat.android.permission.FORCE_FINISH"
+76-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:58:9-67
+77        android:protectionLevel="signature" />
+77-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:59:9-44
+78    <permission
+78-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+79        android:name="com.bitchat.droid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+79-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+80        android:protectionLevel="signature" />
+80-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+81
+82    <uses-permission android:name="com.bitchat.droid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+82-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+82-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+83
+84    <application
+84-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:61:5-134:19
+85        android:name="com.bitchat.android.MeshWaveApplication"
+85-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:62:9-44
+86        android:allowBackup="false"
+86-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:63:9-36
+87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+87-->[androidx.core:core:1.16.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c207d5fa44d2d36ff1de19b754846018\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+88        android:dataExtractionRules="@xml/data_extraction_rules"
+88-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:64:9-65
+89        android:debuggable="true"
+90        android:extractNativeLibs="false"
+91        android:fullBackupContent="@xml/backup_rules"
+91-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:65:9-54
+92        android:icon="@mipmap/ic_launcher"
+92-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:66:9-43
+93        android:label="@string/app_name"
+93-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:68:9-41
+94        android:roundIcon="@mipmap/ic_launcher_round"
+94-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:67:9-54
+95        android:supportsRtl="true"
+95-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:69:9-35
+96        android:theme="@style/Theme.MeshWaveAndroid" >
+96-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:70:9-53
+97
+98        <!-- FileProvider for sharing temp/cache files with external viewers -->
+99        <provider
+100            android:name="androidx.core.content.FileProvider"
+100-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:74:13-62
+101            android:authorities="com.bitchat.droid.fileprovider"
+101-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:75:13-64
+102            android:exported="false"
+102-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:76:13-37
+103            android:grantUriPermissions="true" >
+103-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:77:13-47
+104            <meta-data
+104-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:78:13-80:54
+105                android:name="android.support.FILE_PROVIDER_PATHS"
+105-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:79:17-67
+106                android:resource="@xml/file_paths" />
+106-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:80:17-51
+107        </provider>
+108
+109        <activity
+109-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:82:9-86:58
+110            android:name="com.bitchat.android.ui.GeohashPickerActivity"
+110-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:83:13-53
+111            android:exported="false"
+111-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:84:13-37
+112            android:theme="@style/Theme.MeshWaveAndroid"
+112-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:85:13-57
+113            android:windowSoftInputMode="adjustResize" />
+113-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:86:13-55
+114        <activity
+114-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:87:9-104:20
+115            android:name="com.bitchat.android.MainActivity"
+115-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:88:13-41
+116            android:exported="true"
+116-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:89:13-36
+117            android:label="@string/app_name"
+117-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:90:13-45
+118            android:launchMode="singleTop"
+118-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:93:13-43
+119            android:theme="@style/Theme.MeshWaveAndroid"
+119-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:91:13-57
+120            android:windowSoftInputMode="adjustResize" >
+120-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:92:13-55
+121            <intent-filter>
+121-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:94:13-97:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:95:17-69
+122-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:95:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:96:17-77
+124-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:96:27-74
+125            </intent-filter>
+126            <intent-filter>
+126-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:98:13-103:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:99:17-69
+127-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:99:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:100:17-76
+129-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:100:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:101:17-78
+130-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:101:27-75
+131
+132                <data
+132-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:102:17-73
+133                    android:host="verify"
+133-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:102:49-70
+134                    android:scheme="meshwave" />
+134-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:102:23-48
+135            </intent-filter>
+136        </activity>
+137
+138        <!-- Persistent foreground service to run the mesh in background -->
+139        <service
+139-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:107:9-112:19
+140            android:name="com.bitchat.android.service.MeshForegroundService"
+140-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:108:13-58
+141            android:exported="false"
+141-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:109:13-37
+142            android:foregroundServiceType="connectedDevice|dataSync|location" >
+142-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:110:13-78
+143        </service>
+144
+145        <!-- Listen for in-app broadcast when POST_NOTIFICATIONS is granted -->
+146        <receiver
+146-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:115:9-122:20
+147            android:name="com.bitchat.android.service.NotificationPermissionChangedReceiver"
+147-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:116:13-74
+148            android:enabled="true"
+148-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:117:13-35
+149            android:exported="false" >
+149-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:118:13-37
+150            <intent-filter>
+150-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:119:13-121:29
+151                <action android:name="com.bitchat.android.action.NOTIFICATION_PERMISSION_GRANTED" />
+151-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:120:17-101
+151-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:120:25-98
+152            </intent-filter>
+153        </receiver>
+154
+155        <!-- Auto-start mesh service after boot if enabled -->
+156        <receiver
+156-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:125:9-133:20
+157            android:name="com.bitchat.android.service.BootCompletedReceiver"
+157-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:126:13-58
+158            android:enabled="true"
+158-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:127:13-35
+159            android:exported="false" >
+159-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:128:13-37
+160            <intent-filter>
+160-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:129:13-132:29
+161                <action android:name="android.intent.action.BOOT_COMPLETED" />
+161-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:130:17-79
+161-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:130:25-76
+162                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+162-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:131:17-86
+162-->C:\Users\ASWIN\Downloads\Mesh1-main\Mesh1-main\app\src\main\AndroidManifest.xml:131:25-83
+163            </intent-filter>
+164        </receiver>
+165
+166        <service
+166-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+167            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+167-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+168            android:directBootAware="true"
+168-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+169            android:exported="false" >
+169-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+170            <meta-data
+170-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+171                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+171-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\83326f277cf8d2f9d2b425fec544efc0\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+173            <meta-data
+173-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\ad39b3963d65434915bed5ba66c1a568\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+174                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+174-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\ad39b3963d65434915bed5ba66c1a568\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\ad39b3963d65434915bed5ba66c1a568\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+176            <meta-data
+176-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+177                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+177-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+179        </service>
+180
+181        <provider
+181-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+182            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+182-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+183            android:authorities="com.bitchat.droid.mlkitinitprovider"
+183-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+184            android:exported="false"
+184-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+185            android:initOrder="99" />
+185-->[com.google.mlkit:common:18.11.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\eb9c03dec7e7310c534b46fad20e39e7\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+186
+187        <activity
+187-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\55e81eba73294f56f20009b1914f8c42\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+188            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+188-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\55e81eba73294f56f20009b1914f8c42\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\55e81eba73294f56f20009b1914f8c42\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+190-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\55e81eba73294f56f20009b1914f8c42\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+191
+192        <meta-data
+192-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\2855910881069f2fc21f746a865c2dc1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+193            android:name="com.google.android.gms.version"
+193-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\2855910881069f2fc21f746a865c2dc1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+194            android:value="@integer/google_play_services_version" />
+194-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\2855910881069f2fc21f746a865c2dc1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+195        <!--
+196        Service for holding metadata. Cannot be instantiated.
+197        Metadata will be merged from other manifests.
+198        -->
+199        <service
+199-->[androidx.camera:camera-core:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c1ef34b26237fe711cdf9dd644654ec3\transformed\jetified-camera-core-1.5.2\AndroidManifest.xml:29:9-33:78
+200            android:name="androidx.camera.core.impl.MetadataHolderService"
+200-->[androidx.camera:camera-core:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c1ef34b26237fe711cdf9dd644654ec3\transformed\jetified-camera-core-1.5.2\AndroidManifest.xml:30:13-75
+201            android:enabled="false"
+201-->[androidx.camera:camera-core:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c1ef34b26237fe711cdf9dd644654ec3\transformed\jetified-camera-core-1.5.2\AndroidManifest.xml:31:13-36
+202            android:exported="false" >
+202-->[androidx.camera:camera-core:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\c1ef34b26237fe711cdf9dd644654ec3\transformed\jetified-camera-core-1.5.2\AndroidManifest.xml:32:13-37
+203            <meta-data
+203-->[androidx.camera:camera-camera2:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d1bd2d0ed5e6fbfb245ecf911259a0a5\transformed\jetified-camera-camera2-1.5.2\AndroidManifest.xml:30:13-32:89
+204                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+204-->[androidx.camera:camera-camera2:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d1bd2d0ed5e6fbfb245ecf911259a0a5\transformed\jetified-camera-camera2-1.5.2\AndroidManifest.xml:31:17-103
+205                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+205-->[androidx.camera:camera-camera2:1.5.2] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d1bd2d0ed5e6fbfb245ecf911259a0a5\transformed\jetified-camera-camera2-1.5.2\AndroidManifest.xml:32:17-86
+206        </service>
+207
+208        <activity
+208-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\6abda50af904e893da841ce5ec42dd4c\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+209            android:name="androidx.compose.ui.tooling.PreviewActivity"
+209-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\6abda50af904e893da841ce5ec42dd4c\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+210            android:exported="true" />
+210-->[androidx.compose.ui:ui-tooling-android:1.8.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\6abda50af904e893da841ce5ec42dd4c\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+211
+212        <provider
+212-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+213            android:name="androidx.startup.InitializationProvider"
+213-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
+214            android:authorities="com.bitchat.droid.androidx-startup"
+214-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
+215            android:exported="false" >
+215-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37
+216            <meta-data
+216-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+217                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+217-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:30:17-75
+218                android:value="androidx.startup" />
+218-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\dabfe936e45de8d746faf9996a8c995b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:31:17-49
+219            <meta-data
+219-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\3c98e8e327c454301669c819c858343f\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:29:13-31:52
+220                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+220-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\3c98e8e327c454301669c819c858343f\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
+221                android:value="androidx.startup" />
+221-->[androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\ASWIN\.gradle\caches\8.13\transforms\3c98e8e327c454301669c819c858343f\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
+222            <meta-data
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+223-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+224                android:value="androidx.startup" />
+224-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+225        </provider>
+226
+227        <receiver
+227-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+228            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+228-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+229            android:directBootAware="false"
+229-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+230            android:enabled="true"
+230-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+231            android:exported="true"
+231-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+232            android:permission="android.permission.DUMP" >
+232-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+233            <intent-filter>
+233-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+234                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+234-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+234-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+235            </intent-filter>
+236            <intent-filter>
+236-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+237                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+237-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+237-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+238            </intent-filter>
+239            <intent-filter>
+239-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+240                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+240-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+240-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+241            </intent-filter>
+242            <intent-filter>
+242-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+243                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+243-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+243-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASWIN\.gradle\caches\8.13\transforms\d0bd40f09410f9aa1be7847ca173b1fa\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+244            </intent-filter>
+245        </receiver>
+246
+247        <service
+247-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+248            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+248-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+249            android:exported="false" >
+249-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+250            <meta-data
+250-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+251                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+251-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+252                android:value="cct" />
+252-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASWIN\.gradle\caches\8.13\transforms\52053ed82890dee461302f0545a5fc77\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+253        </service>
+254        <service
+254-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+255            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+255-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+256            android:exported="false"
+256-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+257            android:permission="android.permission.BIND_JOB_SERVICE" >
+257-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+258        </service>
+259
+260        <receiver
+260-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+261            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+261-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+262            android:exported="false" />
+262-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASWIN\.gradle\caches\8.13\transforms\4b81d83290a792723dcd0d93829329c7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+263    </application>
+264
+265</manifest>

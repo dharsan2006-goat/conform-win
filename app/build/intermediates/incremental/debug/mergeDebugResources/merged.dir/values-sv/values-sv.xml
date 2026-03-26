@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="location_notes_title">
+    <item quantity="one">#%1$s ± 1 • %2$d anteckning</item>
+    <item quantity="other">#%1$s ± 1 • %2$d anteckningar</item>
+  </plurals>
+    <plurals name="notification_and_more">
+        <item quantity="one">och %d till</item>
+        <item quantity="other">och %d till</item>
+    </plurals>
+    <plurals name="people_count">
+        <item quantity="one">1 person</item>
+        <item quantity="other">%d personer</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="about_appearance">utseende</string>
+    <string name="about_dark">mörk</string>
+    <string name="about_debug_settings">Felsökningsinställningar</string>
+    <string name="about_e2e_desc">Privata meddelanden är krypterade. Kanalmeddelanden är publika.</string>
+    <string name="about_e2e_title">Ända‑till‑ända‑kryptering</string>
+    <string name="about_emergency_tip">Tips: tryck tre gånger på appens titel för att radera alla data (meddelanden, nycklar, inställningar).</string>
+    <string name="about_emergency_title">Nödradering av data</string>
+    <string name="about_footer">Open Source • Privacy First • Decentraliserad</string>
+    <string name="about_last">Senast: %1$s</string>
+    <string name="about_light">ljus</string>
+    <string name="about_network">nätverk</string>
+    <string name="about_offline_mesh_desc">Kommunicera direkt via Bluetooth LE utan internet eller servrar. Meddelanden reläas av enheter i närheten.</string>
+    <string name="about_offline_mesh_title">Offline Mesh‑chatt</string>
+    <string name="about_online_geohash_desc">Anslut med personer i närheten via geohash‑kanaler. Utöka mesh via publika internetreläer.</string>
+    <string name="about_online_geohash_title">Online Geohash‑kanaler</string>
+    <string name="about_pow">proof of work</string>
+    <string name="about_pow_desc_extreme">extrem – kräver mycket beräkning</string>
+    <string name="about_pow_desc_high">hög – starkt skydd</string>
+    <string name="about_pow_desc_low">låg – grundläggande skydd</string>
+    <string name="about_pow_desc_medium">medel – bra skydd</string>
+    <string name="about_pow_desc_none">inget proof of work krävs</string>
+    <string name="about_pow_desc_very_high">mycket hög – kan orsaka fördröjning</string>
+    <string name="about_pow_desc_very_low">mycket låg – minimal skydd</string>
+    <string name="about_pow_difficulty">svårighet: %1$d bitar (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">svårighet %1$d kräver ~%2$s hash‑försök</string>
+    <string name="about_pow_off">pow av</string>
+    <string name="about_pow_on">pow på</string>
+    <string name="about_pow_tip">lägg till proof of work i geohash‑meddelanden för att hindra spam.</string>
+    <string name="about_system">system</string>
+    <string name="about_tagline">decentraliserad mesh‑meddelanden med ända‑till‑ända‑kryptering</string>
+    <string name="about_tor_off">tor av</string>
+    <string name="about_tor_on">tor på</string>
+    <string name="about_tor_route">routa internet via Tor för ökad integritet.</string>
+    <string name="about_tor_status">Tor‑status: %1$s, bootstrap %2$d%%</string>
+    <string name="action_block_subtitle">blockera alla meddelanden från den här användaren</string>
+    <string name="action_block_title">blockera %1$s</string>
+    <string name="action_copy_message_subtitle">kopiera meddelandet till urklipp</string>
+    <string name="action_copy_message_title">kopiera meddelande</string>
+    <string name="action_hug_subtitle">skicka en vänlig kram</string>
+    <string name="action_hug_title">krama %1$s</string>
+    <string name="action_slap_subtitle">skicka en skämtsam örfil</string>
+    <string name="action_slap_title">ge %1$s en örfil</string>
+    <string name="app_brand">MeshWave/</string>
+    <string name="app_name">MeshWave</string>
+    <string name="at_nickname">@%1$s</string>
+    <string name="at_symbol">@</string>
+    <string msgid="389117264260014992" name="autofill">"Autofyll"</string>
+    <string name="back">Tillbaka</string>
+    <string name="battery_benefits_short">• tillförlitlig leverans\n• håller anslutning\n• förhindrar avbrott</string>
+    <string name="battery_optimization_benefits">• Tillförlitlig leverans\n• Upprätthåller mesh-anslutning\n• Bakgrundsrelä\n• Förhindrar avbrott</string>
+    <string name="battery_optimization_check_again">Kontrollera igen</string>
+    <string name="battery_optimization_checking">Kontrollerar batterioptimering</string>
+    <string name="battery_optimization_continue">Fortsätt</string>
+    <string name="battery_optimization_detected">Batterioptimering upptäckt</string>
+    <string name="battery_optimization_detected_title">batterioptimering upptäckt</string>
+    <string name="battery_optimization_disable_button">Inaktivera optimering</string>
+    <string name="battery_optimization_disabled">Batterioptimering inaktiverad</string>
+    <string name="battery_optimization_disabled_title">optimering av</string>
+    <string name="battery_optimization_enabled_title">Batterioptimering på</string>
+    <string name="battery_optimization_explanation">MeshWave körs i bakgrunden för att upprätthålla mesh-anslutningar till enheter i närheten. Batterioptimering kan avbryta dessa och orsaka fördröjda eller missade meddelanden.\n\nAtt inaktivera säkerställer tillförlitlig P2P-meddelandetrafik.</string>
+    <string name="battery_optimization_explanation_short">MeshWave måste köra i bakgrunden för mesh; optimering kan bryta.</string>
+    <string name="battery_optimization_not_required">Batterioptimering krävs inte</string>
+    <string name="battery_optimization_not_supported_explanation">Din enhet kräver inte batterioptimeringsinställningar. MeshWave körs normalt.</string>
+    <string name="battery_optimization_not_supported_message">Din enhet kräver inte batterioptimeringsinställningar. MeshWave körs normalt.</string>
+    <string name="battery_optimization_note">Obs: kan ändras senare i Android-inställningar > Appar > MeshWave > Batteri</string>
+    <string name="battery_optimization_skip">Hoppa över nu</string>
+    <string name="battery_optimization_success_message">MeshWave kan köras tillförlitligt i bakgrunden</string>
+    <string name="battery_optimization_why_disable">Varför inaktivera?</string>
+    <string name="benefits_of_disabling">Fördelar med inaktivering</string>
+    <string name="bluetooth_needs_bullets">• Hitta användare i närheten\n• Skapa mesh‑anslutningar\n• Skicka och ta emot meddelanden\n• Fungera utan internet/ servrar</string>
+    <string name="bluetooth_needs_for">MeshWave behöver Bluetooth för:</string>
+    <string name="bluetooth_not_supported">Bluetooth stöds inte</string>
+    <string name="bluetooth_required">Bluetooth krävs</string>
+    <string name="bluetooth_unsupported_explanation">Denna enhet stöder inte Bluetooth Low Energy (BLE), vilket krävs för MeshWave.\n\nBLE behövs för att bygga mesh och kommunicera utan internet.</string>
+    <string name="bookmarked">bokmärkt</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Svara"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Avvisa"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Lägg på"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Inkommande samtal"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Pågående samtal"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Ett inkommande samtal filtreras"</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cancel_lower">avbryt</string>
+    <string name="cd_add_bookmark">Lägg till bokmärke</string>
+    <string name="cd_add_favorite">Lägg till som favorit</string>
+    <string name="cd_battery_optimization">Batterioptimering</string>
+    <string name="cd_benefits">Fördelar</string>
+    <string name="cd_bluetooth">Bluetooth</string>
+    <string name="cd_cancel">Avbryt</string>
+    <string name="cd_checking_battery_optimization">Kontrollerar optimering</string>
+    <string name="cd_connected_peers">Anslutna noder</string>
+    <string name="cd_decrease_precision">Minska precision</string>
+    <string name="cd_encrypted">Ända‑till‑ända‑krypterat</string>
+    <string name="cd_end_to_end_encryption">Ända‑till‑ända‑kryptering</string>
+    <string name="cd_error">Fel</string>
+    <string name="cd_file">Fil</string>
+    <string name="cd_geohash_participants">Geohash‑deltagare</string>
+    <string name="cd_handshake_failed">Handshake misslyckades</string>
+    <string name="cd_handshake_in_progress">Handshake pågår</string>
+    <string name="cd_image">Bild</string>
+    <string name="cd_increase_precision">Öka precision</string>
+    <string name="cd_leave_channel">Lämna kanal</string>
+    <string name="cd_link">Länk</string>
+    <string name="cd_location_services">Plats­tjänster</string>
+    <string name="cd_nostr_reachable">Nås via Nostr</string>
+    <string name="cd_not_supported_battery_optimization">Stöds ej</string>
+    <string name="cd_offline_favorite">Favorit (offline)</string>
+    <string name="cd_offline_mesh_chat">Offline Mesh‑chatt</string>
+    <string name="cd_online_geohash_channels">Online Geohash‑kanaler</string>
+    <string name="cd_open_map">Öppna karta</string>
+    <string name="cd_pause_voice">Pausa</string>
+    <string name="cd_pick_media">Välj media</string>
+    <string name="cd_play_voice">Spela</string>
+    <string name="cd_privacy">Integritet</string>
+    <string name="cd_reachable_via_nostr">Nås via Nostr</string>
+    <string name="cd_ready_for_handshake">Redo för handshake</string>
+    <string name="cd_record_voice">Spela in röstanteckning</string>
+    <string name="cd_remove_bookmark">Ta bort bokmärke</string>
+    <string name="cd_remove_favorite">Ta bort favorit</string>
+    <string name="cd_scroll_to_bottom">Rulla längst ned</string>
+    <string name="cd_select_geohash">Välj geohash</string>
+    <string name="cd_selected">Vald</string>
+    <string name="cd_teleport">Teleportera</string>
+    <string name="cd_teleported">Teleporterad</string>
+    <string name="cd_toggle_bookmark">Växla bokmärke</string>
+    <string name="cd_tor_status">Tor‑status</string>
+    <string name="cd_unread_message">Oläst meddelande</string>
+    <string name="cd_unread_private_messages">Olästa privata meddelanden</string>
+    <string name="cd_warning">Varning</string>
+    <string name="channel_count_prefix"> · ⧉ </string>
+    <string name="channel_password_hint">Lösenord</string>
+    <string name="channels">Kanaler</string>
+    <string name="chat_back">tillbaka</string>
+    <string name="chat_channel_prefix">kanal: %1$s</string>
+    <string name="chat_leave">lämna</string>
+    <string name="check_again">Kontrollera igen</string>
+    <string name="checking_bluetooth_status">Kontrollerar Bluetooth‑status…</string>
+    <string name="checking_location_services">Kontrollerar platstjänster…</string>
+    <string name="checking_permissions">kontrollerar behörigheter…</string>
+    <string name="choose_action_message_or_user">välj en åtgärd för meddelandet eller användaren</string>
+    <string name="choose_action_user">välj en åtgärd för den här användaren</string>
+    <string msgid="406453423630273620" name="close_drawer">"Stäng navigeringsmenyn"</string>
+    <string name="close_plain">Stäng</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Stäng kalkylarket"</string>
+    <string name="close_with_emoji">❌ Stäng</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivera</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installera</string>
+    <string name="common_google_play_services_install_text">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_notification_channel_name">Tillgänglighet för Google Plays tjänster</string>
+    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Uppdatera</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
+    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="common_signin_button_text">Logga in</string>
+    <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="continue_btn">Fortsätt</string>
+    <string name="debug_bluetooth_roles">Bluetooth‑roller</string>
+    <string name="debug_clear">rensa</string>
+    <string name="debug_connect">anslut</string>
+    <string name="debug_connected_devices">anslutna enheter</string>
+    <string name="debug_connections_fmt">anslutningar: %1$d / %2$d</string>
+    <string name="debug_debug_console">felsökningskonsol</string>
+    <string name="debug_derived_p_fmt">härlett P: %1$s • uppsk. max element: %2$s</string>
+    <string name="debug_direct_suffix"> • direkt</string>
+    <string name="debug_disconnect">koppla från</string>
+    <string name="debug_gatt_client">GATT‑klient</string>
+    <string name="debug_gatt_server">GATT‑server</string>
+    <string name="debug_max_client">max klient</string>
+    <string name="debug_max_gcs_filter_size_fmt">max GCS‑filterstorlek: %1$d byte (128–1024)</string>
+    <string name="debug_max_overall">max totalt</string>
+    <string name="debug_max_packets_per_sync_fmt">max paket per synk: %1$d</string>
+    <string name="debug_max_server">max server</string>
+    <string name="debug_none">ingen</string>
+    <string name="debug_our_device_id_fmt">vår enhets‑ID: %1$s</string>
+    <string name="debug_overall_connections_fmt">anslutningar: %1$d / %2$d</string>
+    <string name="debug_packet_relay">paketrelä</string>
+    <string name="debug_question_mark">?</string>
+    <string name="debug_recent_scan_results">senaste skanningsresultat</string>
+    <string name="debug_relays_window_fmt">senaste 10 s: %1$d • 1 m: %2$d • 15 m: %3$d</string>
+    <string name="debug_role_client">som klient (vi ansluter)</string>
+    <string name="debug_role_server">som server (vi hostar)</string>
+    <string name="debug_since_start_fmt">sedan start: %1$d</string>
+    <string name="debug_sync_settings">synkinställningar</string>
+    <string name="debug_target_fpr_fmt">mål‑FPR: %1$.2f%%</string>
+    <string name="debug_tools">felsökningsverktyg</string>
+    <string name="debug_verbose_logging">utförlig loggning</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Ogiltiga indata"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Popup-fönster"</string>
+    <string name="disable_battery_optimization">Inaktivera optimering</string>
+    <string name="disable_location_services">inaktivera platstjänster</string>
+    <string name="dismiss">stäng</string>
+    <string name="dot">.</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Rullgardinsmeny"</string>
+    <string name="emergency_clear_hint">Tryck tre gånger för att rensa all data</string>
+    <string name="enable_bluetooth">Aktivera Bluetooth</string>
+    <string name="enable_location_services">aktivera platstjänster</string>
+    <string name="file_unavailable">[fil ej tillgänglig]</string>
+    <string name="file_viewer_name">📄 %1$s</string>
+    <string name="file_viewer_open_save">📂 Öppna / Spara</string>
+    <string name="file_viewer_size">📏 Storlek: %1$s</string>
+    <string name="file_viewer_title">📎 Fil mottagen</string>
+    <string name="file_viewer_type">🏷️ Typ: %1$s</string>
+    <string name="finding_nearby_channels">söker efter kanaler i närheten…</string>
+    <string name="fingerprint_copy">copy</string>
+    <string name="fingerprint_mark_verified">mark as verified</string>
+    <string name="fingerprint_no_peer">open a private chat to view fingerprints</string>
+    <string name="fingerprint_not_verified_label">not verified</string>
+    <string name="fingerprint_not_verified_message_fmt">compare these fingerprints with %1$s using a secure channel.</string>
+    <string name="fingerprint_pending">handshake pending</string>
+    <string name="fingerprint_start_handshake">start handshake</string>
+    <string name="fingerprint_status_encrypted">encrypted</string>
+    <string name="fingerprint_status_failed">handshake failed</string>
+    <string name="fingerprint_status_handshaking">handshaking</string>
+    <string name="fingerprint_status_uninitialized">not encrypted</string>
+    <string name="fingerprint_status_verified">encrypted &amp; verified</string>
+    <string name="fingerprint_their">their fingerprint</string>
+    <string name="fingerprint_verified_label">verified</string>
+    <string name="fingerprint_verified_message">you have verified this persons identity.</string>
+    <string name="fingerprint_yours">your fingerprint</string>
+    <string name="geohash_people_header">PERSONER</string>
+    <string name="geohash_placeholder">geohash</string>
+    <string name="grant_location_permission">ge platsbehörighet</string>
+    <string name="grant_permissions">Ge behörigheter</string>
+    <string name="hash_symbol">#</string>
+    <string name="image_counter">%1$d / %2$d</string>
+    <string name="image_page_of">Bild %1$d / %2$d</string>
+    <string name="image_save_failed">Kunde inte spara bild</string>
+    <string name="image_saved_to_downloads">Bild sparad i "Hämtade filer"</string>
+    <string name="image_star">image/*</string>
+    <string name="image_unavailable">Bild ej tillgänglig</string>
+    <string msgid="6827826412747255547" name="in_progress">"Pågår"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Delvis markerad"</string>
+    <string name="initializing_mesh_network">Initierar mesh‑nätverk</string>
+    <string name="invalid_geohash">ogiltig geohash</string>
+    <string name="join">Gå med</string>
+    <string name="join_channel">Gå med i kanal</string>
+    <string name="leave_channel">Lämna</string>
+    <string name="loading_location_notes">laddar anteckningar…</string>
+    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_channels_desc">chatta med folk nära dig via geohash‑kanaler. endast en grov geohash delas, aldrig exakt gps. ta inte skärmdumpar eller dela skärmen för att skydda din integritet.</string>
+    <string name="location_channels_title">#platskanaler</string>
+    <string name="location_explanation">MeshWave SPÅRAR INTE din plats.\n\nPlatstjänster krävs för Bluetooth‑skanning och Geohash‑chatt.</string>
+    <string name="location_level_block">kvarter</string>
+    <string name="location_level_city">stad</string>
+    <string name="location_level_neighborhood">grannskap</string>
+    <string name="location_level_province">län</string>
+    <string name="location_level_region">region</string>
+    <string name="location_needs_bullets">• Bluetooth‑skanning av enheter\n• Hitta användare i närheten i mesh‑nätet\n• Geohash‑chatt\n• Ingen spårning eller insamling</string>
+    <string name="location_needs_for">MeshWave behöver platstjänster för:</string>
+    <string name="location_notes_description">lägg till korta permanenta anteckningar för den här platsen så att andra besökare kan hitta dem.</string>
+    <string name="location_notes_empty_desc">var först med att lägga till en anteckning för den här platsen.</string>
+    <string name="location_notes_empty_title">inga anteckningar ännu</string>
+    <string name="location_notes_input_placeholder">lägg till en anteckning för den här platsen</string>
+    <string name="location_notes_no_relays_desc">anteckningar är beroende av geo-reläer. kontrollera anslutningen och försök igen.</string>
+    <string name="location_notes_no_relays_title">inga geo-reläer i närheten</string>
+    <string name="location_notes_relays_unavailable">geo-reläer är inte tillgängliga; anteckningar pausade</string>
+    <string name="location_permission_denied">platsbehörighet nekades. aktivera i inställningar för att använda platskanaler.</string>
+    <string name="location_permission_granted">\u2713 platsbehörighet beviljad</string>
+    <string name="location_services_required">Platstjänster krävs</string>
+    <string name="location_services_unavailable">Platstjänster inte tillgängliga</string>
+    <string name="location_tracking_warning">MeshWave spårar INTE din plats</string>
+    <string name="location_unavailable_explanation">Platstjänster saknas på den här enheten. Det är ovanligt.\n\nAndroid kräver dem för att Bluetooth‑skanning ska fungera. Utan dem kan vi inte hitta användare i närheten.</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Komprimera arket på nedre delen av skärmen"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Stäng arket på nedre delen av skärmen"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Handtag"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Utöka arket på nedre delen av skärmen"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Ark på nedre delen av skärmen"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Angivet datum"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Angivet datum: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Datumet matchar inte det förväntade formatet: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Datumet är inte tillåtet: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Datumet faller utanför det förväntade årsintervallet %1$s–%2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Datum"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Inga"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Välj datum"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Valt datum"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Aktuellt val: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Navigera till %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Inga"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Scrolla för att visa föregående år"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Scrolla för att visa senare år"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Byt till kalender som inmatningsläge"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Svep för att välja ett år eller tryck för att återgå till att välja en dag"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Byt till text som inmatningsläge"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Ändra till nästa månad"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Ändra till föregående månad"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Byt till att välja år"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Välj datum"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"I dag"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Årväljaren är synlig"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Ett ogiltigt datumintervall har angetts"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Ange datum"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Inom intervall"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Slutdatum"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Scrolla för att visa nästa månad"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Scrolla för att visa föregående månad"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Startdatum"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Välj datum"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Dialogruta"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Komprimerad"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Utökad"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Utöka/komprimera rullgardinsmeny"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Sök"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Stäng"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Se förslag nedan"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"FM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Timme"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d tim"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Ange timme"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"Kl. %1$d"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"för timme"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minut"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Välj minuter"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minuter"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"för minuter"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Välj mellan FM och EM"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"EM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Visa beskrivning"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Beskrivning"</string>
+    <string msgid="2792228137354697160" name="mc2_snackbar_pane_title">"Varning"</string>
+    <string name="media_type_file">Fil</string>
+    <string name="media_type_image">Bild</string>
+    <string name="mention">nämn</string>
+    <string name="mention_suggestion_at">@%1$s</string>
+    <string name="mesh_label">mesh</string>
+    <string name="mesh_service_notification_content">Mesh körs — %1$d peers</string>
+    <string name="message_hint">skriv ett meddelande…</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigeringsmeny"</string>
+    <string name="nickname_hint">smeknamn</string>
+    <string name="no_one_connected">Ingen ansluten</string>
+    <string name="nobody_around">ingen i närheten…</string>
+    <string msgid="6610465462668679431" name="not_selected">"Inte vald"</string>
+    <string name="notification_active_peers_many">%1$d personer i närheten</string>
+    <string name="notification_active_peers_one">1 person i närheten</string>
+    <string name="notification_active_peers_title">👥 MeshWaveter i närheten!</string>
+    <string name="notification_and_more">och %1$d till</string>
+    <string name="notification_file_doc">📄</string>
+    <string name="notification_file_generic">📎</string>
+    <string name="notification_file_pdf">📄</string>
+    <string name="notification_file_ppt">📈</string>
+    <string name="notification_file_xls">📊</string>
+    <string name="notification_file_zip">🗜️</string>
+    <string name="notification_geohash_summary_text">%1$d meddelanden från %2$d platser</string>
+    <string name="notification_geohash_summary_title">MeshWave – platschattar</string>
+    <string name="notification_geohash_summary_title_mentions">MeshWave – %1$d nämningar</string>
+    <string name="notification_joined_conversation">%1$s gick med i konversationen</string>
+    <string name="notification_mentions_in">Nämnd i %1$s</string>
+    <string name="notification_mentions_in_more">Nämnd i %1$s (+%2$d till)</string>
+    <string name="notification_mentions_in_plural">%1$d nämningar i %2$s</string>
+    <string name="notification_mesh_mention_title_plural">%1$d nämningar i Mesh‑chatt</string>
+    <string name="notification_mesh_mention_title_singular">Nämnd i Mesh‑chatt</string>
+    <string name="notification_messages_from_people">%1$d meddelanden från %2$d personer</string>
+    <string name="notification_messages_in">Meddelanden i %1$s</string>
+    <string name="notification_more_conversations">och %1$d fler konversationer</string>
+    <string name="notification_more_locations">och %1$d fler platser</string>
+    <string name="notification_new_activity_in">Ny aktivitet i %1$s</string>
+    <string name="notification_new_location_messages">Nya platsmeddelanden</string>
+    <string name="notification_new_messages">Nya meddelanden</string>
+    <string name="notification_sent_file">📎 skickade en fil</string>
+    <string name="notification_sent_image">📷 skickade en bild</string>
+    <string name="notification_sent_voice">🎤 skickade ett röstmeddelande</string>
+    <string name="notification_summary_more">och %1$d till</string>
+    <string name="online_users">Användare online</string>
+    <string name="open_location_settings">Öppna platsinställningar</string>
+    <string name="open_settings">Öppna inställningar</string>
+    <string name="pan_zoom_instruction">panorera och zooma för att välja geohash</string>
+    <string name="people">Personer</string>
+    <string name="perm_battery_desc">Inaktivera batterioptimering för tillförlitlig drift i bakgrunden och mesh‑anslutning</string>
+    <string name="perm_battery_system">Tillåt körning utan batteribegränsningar</string>
+    <string name="perm_location_desc">Krävs av Android för att hitta användare via Bluetooth</string>
+    <string name="perm_location_system">MeshWave behöver detta för att skanna enheter</string>
+    <string name="perm_nearby_devices_desc">Krävs för att hitta MeshWave‑användare via Bluetooth</string>
+    <string name="perm_nearby_devices_system">Tillåt MeshWave att ansluta till enheter i närheten</string>
+    <string name="perm_notifications_desc">Ta emot aviseringar vid privata meddelanden</string>
+    <string name="perm_notifications_system">Tillåt MeshWave att skicka aviseringar</string>
+    <string name="perm_type_battery_optimization">Batterioptimering</string>
+    <string name="perm_type_microphone">Mikrofon</string>
+    <string name="perm_type_nearby_devices">Enheter i närheten</string>
+    <string name="perm_type_notifications">Aviseringar</string>
+    <string name="perm_type_other">Övrigt</string>
+    <string name="perm_type_precise_location">Exakt plats</string>
+    <string name="permission_bluetooth_rationale">Bluetooth-behörighet krävs för direktmeddelanden utan internet.</string>
+    <string name="permission_location_rationale">Platsbehörighet krävs för att hitta enheter i närheten via Bluetooth.</string>
+    <string name="permission_notification_rationale">Aviseringsbehörighet krävs för att meddela nya meddelanden.</string>
+    <string name="permissions_header">behörigheter</string>
+    <string name="pick_file">Välj fil</string>
+    <string name="pick_image">Välj bild</string>
+    <string name="pow_time_estimate">(~%1$s)</string>
+    <string name="privacy_bullets">• ingen spårning eller insamling\n• Bluetooth‑mesh‑chattar helt offline\n• geohash‑chattar använder internet</string>
+    <string name="privacy_first">Integritet först</string>
+    <string name="privacy_protected">Din integritet är skyddad</string>
+    <string name="progress_bar_brackets">[%1$s] %2$d%%</string>
+    <string name="progress_empty">░</string>
+    <string name="progress_filled">█</string>
+    <string name="pwd_label">Lösenord</string>
+    <string name="pwd_prompt_message">Kanal %1$s är lösenordsskyddad. Ange lösenordet för att gå med.</string>
+    <string name="pwd_prompt_title">Ange kanalens lösenord</string>
+    <string msgid="5941395253238309765" name="range_end">"Intervallets slut"</string>
+    <string msgid="7097486360902471446" name="range_start">"Intervallets början"</string>
+    <string name="retry">Försök igen</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string name="security_verification_title">security verification</string>
+    <string name="select">välj</string>
+    <string msgid="6043586758067023" name="selected">"Valt"</string>
+    <string name="send_message">Skicka</string>
+    <string name="setting_up_bluetooth">Ställer in Bluetooth‑mesh…</string>
+    <string name="setup_not_complete">Slutför inte inställningen</string>
+    <string name="should_take_seconds">Det tar bara några sekunder</string>
+    <string name="show_commands">Visa kommandon</string>
+    <string name="skip">Hoppa över</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Varning"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Tom"</string>
+    <string msgid="5834637030682409883" name="state_off">"Av"</string>
+    <string msgid="1490883874751719580" name="state_on">"På"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_delivered">✓✓</string>
+    <string name="status_failed">⚠</string>
+    <string name="status_pending">○</string>
+    <string name="status_read">✓</string>
+    <string name="status_sending">○</string>
+    <string name="status_sent">✓</string>
+    <string msgid="2561197295334830845" name="switch_role">"Reglage"</string>
+    <string msgid="1672349317127674378" name="tab">"Flik"</string>
+    <string name="teleport">teleportera</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> procent."</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"beskrivning"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"visa beskrivning"</string>
+    <string name="try_again">Försök igen</string>
+    <string name="type_a_message_placeholder">skriv ett meddelande…</string>
+    <string name="underscore">_</string>
+    <string name="unknown">okänd</string>
+    <string name="verify_camera_permission">camera permission is needed to scan qr codes</string>
+    <string name="verify_mutual_match_body">You and %1$s verified each other</string>
+    <string name="verify_mutual_match_title">Mutual verification</string>
+    <string name="verify_mutual_system_message">mutual verification with %1$s</string>
+    <string name="verify_my_qr_title">scan to verify me</string>
+    <string name="verify_paste_label">paste verification url</string>
+    <string name="verify_qr_unavailable">qr unavailable</string>
+    <string name="verify_remove">remove verification</string>
+    <string name="verify_request_camera">enable camera</string>
+    <string name="verify_scan_prompt_friend">scan someone elses qr</string>
+    <string name="verify_scan_someone">scan someone elses qr</string>
+    <string name="verify_scanned">verification requested</string>
+    <string name="verify_show_my_qr">show my qr</string>
+    <string name="verify_success_body">You verified %1$s</string>
+    <string name="verify_success_system_message">verified %1$s</string>
+    <string name="verify_success_title">Verified</string>
+    <string name="verify_title">verify</string>
+    <string name="verify_validate">validate</string>
+    <string name="version_prefix">v%1$s</string>
+    <string name="warning_emoji">⚠️</string>
+    <string name="you_suffix"> (du)</string>
+    <string name="your_network">Nätverk</string>
+</resources>

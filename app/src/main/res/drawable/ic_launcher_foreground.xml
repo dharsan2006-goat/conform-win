@@ -1,0 +1,99 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:width="108dp"
+    android:height="108dp">
+
+    <!-- Signal wave arcs (outer to inner) -->
+    <!-- Outermost wave -->
+    <path
+        android:pathData="M54,30 A24,24 0 0,1 78,54"
+        android:strokeColor="#80BFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,78 A24,24 0 0,1 30,54"
+        android:strokeColor="#80BFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Middle wave -->
+    <path
+        android:pathData="M54,36 A18,18 0 0,1 72,54"
+        android:strokeColor="#4DA6FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,72 A18,18 0 0,1 36,54"
+        android:strokeColor="#4DA6FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Inner wave -->
+    <path
+        android:pathData="M54,42 A12,12 0 0,1 66,54"
+        android:strokeColor="#0A84FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,66 A12,12 0 0,1 42,54"
+        android:strokeColor="#0A84FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000" />
+
+    <!-- Center dot (main node) -->
+    <path
+        android:pathData="M54,54 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0"
+        android:fillColor="#0A84FF" />
+
+    <!-- Mesh dots (connected nodes) -->
+    <!-- Top-right node -->
+    <path
+        android:pathData="M72,36 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Bottom-left node -->
+    <path
+        android:pathData="M36,72 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Top-left node -->
+    <path
+        android:pathData="M36,36 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#80BFFF" />
+    <!-- Bottom-right node -->
+    <path
+        android:pathData="M72,72 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#80BFFF" />
+
+    <!-- Mesh connection lines (connecting the dots) -->
+    <path
+        android:pathData="M54,54 L72,36"
+        android:strokeColor="#4DA6FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,54 L36,72"
+        android:strokeColor="#4DA6FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,54 L36,36"
+        android:strokeColor="#336699"
+        android:strokeWidth="1"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,54 L72,72"
+        android:strokeColor="#336699"
+        android:strokeWidth="1"
+        android:fillColor="#00000000" />
+    <!-- Cross connections between outer nodes -->
+    <path
+        android:pathData="M72,36 L36,36"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M36,72 L72,72"
+        android:strokeColor="#1A3A5C"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000" />
+</vector>

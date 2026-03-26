@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="notification_and_more">
+        <item quantity="one">và %d khác</item>
+        <item quantity="other">và %d khác</item>
+    </plurals>
+    <plurals name="people_count">
+        <item quantity="one">1 người</item>
+        <item quantity="other">%d người</item>
+    </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="about_appearance">Giao diện</string>
+    <string name="about_dark">Tối</string>
+    <string name="about_debug_settings">Cài đặt debug</string>
+    <string name="about_e2e_desc">Tin nhắn riêng được mã hóa. Tin nhắn kênh là công khai.</string>
+    <string name="about_e2e_title">Mã hóa đầu cuối</string>
+    <string name="about_emergency_tip">Mẹo: Nhấn ba lần vào tiêu đề ứng dụng để xóa tất cả dữ liệu đã lưu – bao gồm tin nhắn, khóa và cài đặt.</string>
+    <string name="about_emergency_title">Xóa dữ liệu khẩn cấp</string>
+    <string name="about_footer">Mã nguồn mở • Quyền riêng tư trước tiên • Phi tập trung</string>
+    <string name="about_last">Cuối cùng: %1$s</string>
+    <string name="about_light">Sáng</string>
+    <string name="about_network">Mạng lưới</string>
+    <string name="about_offline_mesh_desc">Liên lạc trực tiếp qua Bluetooth LE mà không cần Internet hoặc máy chủ. Tin nhắn được chuyển tiếp qua các thiết bị gần để mở rộng phạm vi.</string>
+    <string name="about_offline_mesh_title">Trò chuyện Mesh ngoại tuyến</string>
+    <string name="about_online_geohash_desc">Kết nối với những người trong khu vực của bạn qua các kênh dựa trên geohash. Mở rộng mesh qua các relay Internet công cộng.</string>
+    <string name="about_online_geohash_title">Kênh Geohash trực tuyến</string>
+    <string name="about_pow">Proof of Work</string>
+    <string name="about_pow_desc_extreme">cực cao – cần sức mạnh tính toán đáng kể</string>
+    <string name="about_pow_desc_high">cao – bảo vệ spam mạnh</string>
+    <string name="about_pow_desc_low">thấp – bảo vệ spam cơ bản</string>
+    <string name="about_pow_desc_medium">trung bình – bảo vệ spam tốt</string>
+    <string name="about_pow_desc_none">không cần proof of work</string>
+    <string name="about_pow_desc_very_high">rất cao – có thể gây độ trễ</string>
+    <string name="about_pow_desc_very_low">rất thấp – bảo vệ spam tối thiểu</string>
+    <string name="about_pow_difficulty">Độ khó: %1$d bit (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">Độ khó %1$d cần ~%2$s lần thử hash</string>
+    <string name="about_pow_off">PoW tắt</string>
+    <string name="about_pow_on">PoW bật</string>
+    <string name="about_pow_tip">Thêm proof of work vào tin nhắn geohash để làm cho spam khó hơn.</string>
+    <string name="about_system">Hệ thống</string>
+    <string name="about_tagline">trò chuyện mesh phi tập trung với mã hóa đầu cuối</string>
+    <string name="about_tor_off">Tor tắt</string>
+    <string name="about_tor_on">Tor bật</string>
+    <string name="about_tor_route">Định tuyến lưu lượng Internet qua Tor để có thêm quyền riêng tư.</string>
+    <string name="about_tor_status">Trạng thái Tor: %1$s, Bootstrap %2$d%%</string>
+    <string name="action_block_subtitle">Chặn tất cả tin nhắn từ người dùng này</string>
+    <string name="action_block_title">Chặn %1$s</string>
+    <string name="action_copy_message_subtitle">Sao chép tin nhắn này vào clipboard</string>
+    <string name="action_copy_message_title">Sao chép tin nhắn</string>
+    <string name="action_hug_subtitle">Gửi một cái ôm thân thiện</string>
+    <string name="action_hug_title">Ôm %1$s</string>
+    <string name="action_slap_subtitle">Gửi một cái tát vui nhộn</string>
+    <string name="action_slap_title">Tát %1$s</string>
+    <string name="app_name">MeshWave</string>
+    <string msgid="389117264260014992" name="autofill">"Tự động điền"</string>
+    <string name="back">Quay lại</string>
+    <string name="battery_benefits_short">• gửi tin nhắn đáng tin cậy\n• duy trì kết nối mesh\n• ngăn ngừa mất kết nối</string>
+    <string name="battery_optimization_benefits">• Gửi tin nhắn đáng tin cậy\n• Duy trì kết nối mesh\n• Chuyển tiếp tin nhắn nền\n• Ngăn ngừa mất kết nối</string>
+    <string name="battery_optimization_check_again">Kiểm tra lại</string>
+    <string name="battery_optimization_checking">Đang kiểm tra tối ưu hóa pin</string>
+    <string name="battery_optimization_continue">Tiếp tục</string>
+    <string name="battery_optimization_detected">Đã phát hiện tối ưu hóa pin</string>
+    <string name="battery_optimization_detected_title">Đã phát hiện tối ưu hóa pin</string>
+    <string name="battery_optimization_disable_button">Tắt tối ưu hóa pin</string>
+    <string name="battery_optimization_disabled">Tối ưu hóa pin đã tắt</string>
+    <string name="battery_optimization_disabled_title">Tối ưu hóa pin đã tắt</string>
+    <string name="battery_optimization_enabled_title">Tối ưu hóa pin đã bật</string>
+    <string name="battery_optimization_explanation">MeshWave chạy nền để duy trì kết nối mesh với các thiết bị gần đó. Tối ưu hóa pin có thể làm gián đoạn các kết nối này, gây ra tin nhắn bị trễ hoặc mất.\n\nTắt tối ưu hóa pin đảm bảo liên lạc ngang hàng đáng tin cậy.</string>
+    <string name="battery_optimization_explanation_short">MeshWave phải chạy nền để duy trì kết nối mesh. Tối ưu hóa pin có thể làm gián đoạn các kết nối này.</string>
+    <string name="battery_optimization_not_required">Không cần tối ưu hóa pin</string>
+    <string name="battery_optimization_not_supported_explanation">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. MeshWave sẽ chạy bình thường.</string>
+    <string name="battery_optimization_not_supported_message">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. MeshWave sẽ chạy bình thường.</string>
+    <string name="battery_optimization_note">Lưu ý: Bạn có thể thay đổi điều này sau trong Android Settings > Apps > MeshWave > Battery.</string>
+    <string name="battery_optimization_skip">Bỏ qua ngay</string>
+    <string name="battery_optimization_success_message">MeshWave có thể chạy đáng tin cậy trong nền</string>
+    <string name="battery_optimization_why_disable">Tại sao nên tắt tối ưu hóa pin?</string>
+    <string name="benefits_of_disabling">Lợi ích của việc tắt</string>
+    <string name="bluetooth_needs_bullets">• Khám phá người dùng gần đó\n• Tạo kết nối mạng mesh\n• Gửi và nhận tin nhắn\n• Hoạt động mà không cần Internet hoặc máy chủ</string>
+    <string name="bluetooth_needs_for">MeshWave cần Bluetooth cho:</string>
+    <string name="bluetooth_not_supported">Bluetooth không được hỗ trợ</string>
+    <string name="bluetooth_required">Yêu cầu Bluetooth</string>
+    <string name="bluetooth_unsupported_explanation">Thiết bị này không hỗ trợ Bluetooth Low Energy (BLE), cần thiết để MeshWave hoạt động.\n\nMeshWave cần BLE để tạo mạng mesh và liên lạc với thiết bị gần đó mà không cần Internet.</string>
+    <string name="bookmarked">Đã bookmark</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Trả lời"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Từ chối"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Kết thúc"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Cuộc gọi đến"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Cuộc gọi đang thực hiện"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Đang sàng lọc cuộc gọi đến"</string>
+    <string name="cancel">Hủy</string>
+    <string name="cancel_lower">hủy</string>
+    <string name="cd_add_bookmark">Thêm bookmark</string>
+    <string name="cd_add_favorite">Thêm vào yêu thích</string>
+    <string name="cd_battery_optimization">Tối ưu hóa pin</string>
+    <string name="cd_benefits">Lợi ích</string>
+    <string name="cd_bluetooth">Bluetooth</string>
+    <string name="cd_cancel">Hủy</string>
+    <string name="cd_checking_battery_optimization">Đang kiểm tra tối ưu hóa pin</string>
+    <string name="cd_close">Đóng</string>
+    <string name="cd_connected_peers">Peers đã kết nối</string>
+    <string name="cd_decrease_precision">Giảm độ chính xác</string>
+    <string name="cd_encrypted">Mã hóa đầu cuối</string>
+    <string name="cd_end_to_end_encryption">Mã hóa đầu cuối</string>
+    <string name="cd_error">Lỗi</string>
+    <string name="cd_file">File</string>
+    <string name="cd_geohash_participants">Người tham gia geohash</string>
+    <string name="cd_handshake_failed">Handshake thất bại</string>
+    <string name="cd_handshake_in_progress">Handshake đang tiến hành</string>
+    <string name="cd_image">Hình ảnh</string>
+    <string name="cd_image_index_of">Hình ảnh %1$d trong %2$d</string>
+    <string name="cd_increase_precision">Tăng độ chính xác</string>
+    <string name="cd_leave_channel">Rời khỏi kênh</string>
+    <string name="cd_link">Liên kết</string>
+    <string name="cd_location_services">Dịch vụ vị trí</string>
+    <string name="cd_mining_pow">Đang mining PoW</string>
+    <string name="cd_nostr_reachable">Có thể tiếp cận qua Nostr</string>
+    <string name="cd_not_supported_battery_optimization">Tối ưu hóa pin không được hỗ trợ</string>
+    <string name="cd_offline_favorite">Yêu thích (ngoại tuyến)</string>
+    <string name="cd_offline_mesh_chat">Trò chuyện Mesh ngoại tuyến</string>
+    <string name="cd_online_geohash_channels">Kênh Geohash trực tuyến</string>
+    <string name="cd_open_map">Mở bản đồ</string>
+    <string name="cd_pause_voice">Tạm dừng</string>
+    <string name="cd_pick_file">Chọn file</string>
+    <string name="cd_pick_media">Chọn media</string>
+    <string name="cd_play_voice">Phát</string>
+    <string name="cd_pow_enabled">PoW đã bật</string>
+    <string name="cd_privacy">Quyền riêng tư</string>
+    <string name="cd_privacy_protected">Quyền riêng tư được bảo vệ</string>
+    <string name="cd_proof_of_work">Proof of Work</string>
+    <string name="cd_reachable_via_nostr">Có thể tiếp cận qua Nostr</string>
+    <string name="cd_ready_for_handshake">Sẵn sàng cho handshake</string>
+    <string name="cd_record_voice">Ghi tin nhắn thoại</string>
+    <string name="cd_remove_bookmark">Xóa bookmark</string>
+    <string name="cd_remove_favorite">Xóa khỏi yêu thích</string>
+    <string name="cd_save_current_image">Lưu hình ảnh hiện tại</string>
+    <string name="cd_scroll_to_bottom">Cuộn xuống dưới</string>
+    <string name="cd_select_geohash">Chọn geohash</string>
+    <string name="cd_selected">Đã chọn</string>
+    <string name="cd_teleport">Dịch chuyển</string>
+    <string name="cd_teleported">Đã dịch chuyển</string>
+    <string name="cd_toggle_bookmark">Bật/tắt bookmark</string>
+    <string name="cd_tor_status">Trạng thái Tor</string>
+    <string name="cd_unread_message">Tin nhắn chưa đọc</string>
+    <string name="cd_unread_private_messages">Tin nhắn riêng chưa đọc</string>
+    <string name="cd_warning">Cảnh báo</string>
+    <string name="channel_password_hint">Mật khẩu</string>
+    <string name="channels">Kênh</string>
+    <string name="chat_back">quay lại</string>
+    <string name="chat_channel_prefix">Kênh: %1$s</string>
+    <string name="chat_leave">rời khỏi</string>
+    <string name="check_again">Kiểm tra lại</string>
+    <string name="checking_bluetooth_status">Đang kiểm tra trạng thái Bluetooth …</string>
+    <string name="checking_location_services">Đang kiểm tra dịch vụ vị trí …</string>
+    <string name="checking_permissions">Đang kiểm tra quyền …</string>
+    <string name="choose_action_message_or_user">Chọn hành động cho tin nhắn hoặc người dùng này</string>
+    <string name="choose_action_user">Chọn hành động cho người dùng này</string>
+    <string msgid="406453423630273620" name="close_drawer">"Đóng trình đơn điều hướng"</string>
+    <string name="close_plain">Đóng</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Đóng trang tính"</string>
+    <string name="close_with_emoji">❌ Đóng</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Bật</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Bật dịch vụ của Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Cài đặt</string>
+    <string name="common_google_play_services_install_text">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Phạm vi cung cấp Dịch vụ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Lỗi dịch vụ của Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s sẽ không chạy nếu không có Dịch vụ Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Cập nhật</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật Dịch vụ Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Cập nhật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật.</string>
+    <string name="common_google_play_services_wear_update_text">Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật.</string>
+    <string name="common_open_on_phone">Mở trên điện thoại</string>
+    <string name="common_signin_button_text">Đăng nhập</string>
+    <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
+    <string name="continue_btn">Tiếp tục</string>
+    <string name="debug_bluetooth_roles">Vai trò Bluetooth</string>
+    <string name="debug_clear">xóa</string>
+    <string name="debug_connect">kết nối</string>
+    <string name="debug_connected_devices">thiết bị đã kết nối</string>
+    <string name="debug_connections_fmt">Kết nối: %1$d / %2$d</string>
+    <string name="debug_debug_console">Console debug</string>
+    <string name="debug_derived_p_fmt">P dẫn xuất: %1$s • phần tử tối đa ước tính: %2$s</string>
+    <string name="debug_direct_suffix"> • trực tiếp</string>
+    <string name="debug_disconnect">ngắt kết nối</string>
+    <string name="debug_gatt_client">GATT Client</string>
+    <string name="debug_gatt_server">GATT Server</string>
+    <string name="debug_max_client">client tối đa</string>
+    <string name="debug_max_gcs_filter_size_fmt">kích thước bộ lọc GCS tối đa: %1$d Byte (128–1024)</string>
+    <string name="debug_max_overall">tối đa tổng</string>
+    <string name="debug_max_packets_per_sync_fmt">gói tối đa mỗi sync: %1$d</string>
+    <string name="debug_max_server">server tối đa</string>
+    <string name="debug_none">không có</string>
+    <string name="debug_our_device_id_fmt">ID thiết bị của chúng tôi: %1$s</string>
+    <string name="debug_overall_connections_fmt">Kết nối: %1$d / %2$d</string>
+    <string name="debug_packet_relay">Packet Relay</string>
+    <string name="debug_recent_scan_results">thiết bị được quét gần đây</string>
+    <string name="debug_relays_window_fmt">10s cuối: %1$d • 1m: %2$d • 15m: %3$d</string>
+    <string name="debug_role_client">làm client (chúng tôi kết nối)</string>
+    <string name="debug_role_server">làm server (chúng tôi host)</string>
+    <string name="debug_roles_hint">Bật/tắt vai trò và đóng tất cả kết nối khi tắt</string>
+    <string name="debug_since_start_fmt">từ lúc bắt đầu: %1$d</string>
+    <string name="debug_sync_settings">Cài đặt sync</string>
+    <string name="debug_target_fpr_fmt">FPR mục tiêu: %1$.2f%%</string>
+    <string name="debug_tools">Công cụ debug</string>
+    <string name="debug_tools_desc">Công cụ nhà phát triển cho chẩn đoán và điều khiển</string>
+    <string name="debug_verbose_hint">Ghi log peer join/leave, hướng kết nối, chuyển tiếp gói và relay</string>
+    <string name="debug_verbose_logging">ghi log chi tiết</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Giá trị nhập không hợp lệ"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Cửa sổ bật lên"</string>
+    <string name="disable_battery_optimization">Tắt tối ưu hóa pin</string>
+    <string name="disable_location_services">Tắt dịch vụ vị trí</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Trình đơn thả xuống"</string>
+    <string name="emergency_clear_hint">Nhấn ba lần để xóa tất cả dữ liệu</string>
+    <string name="enable_bluetooth">Bật Bluetooth</string>
+    <string name="enable_location_services">Bật dịch vụ vị trí</string>
+    <string name="file_unavailable">[File không có sẵn]</string>
+    <string name="file_viewer_name">📄 %1$s</string>
+    <string name="file_viewer_open_save">📂 Mở / Lưu</string>
+    <string name="file_viewer_size">📏 Kích thước: %1$s</string>
+    <string name="file_viewer_title">📎 File đã nhận</string>
+    <string name="file_viewer_type">🏷️ Loại: %1$s</string>
+    <string name="finding_nearby_channels">Đang tìm kênh gần đó …</string>
+    <string name="fingerprint_copy">copy</string>
+    <string name="fingerprint_mark_verified">mark as verified</string>
+    <string name="fingerprint_no_peer">open a private chat to view fingerprints</string>
+    <string name="fingerprint_not_verified_label">not verified</string>
+    <string name="fingerprint_not_verified_message_fmt">compare these fingerprints with %1$s using a secure channel.</string>
+    <string name="fingerprint_pending">handshake pending</string>
+    <string name="fingerprint_start_handshake">start handshake</string>
+    <string name="fingerprint_status_encrypted">encrypted</string>
+    <string name="fingerprint_status_failed">handshake failed</string>
+    <string name="fingerprint_status_handshaking">handshaking</string>
+    <string name="fingerprint_status_uninitialized">not encrypted</string>
+    <string name="fingerprint_status_verified">encrypted &amp; verified</string>
+    <string name="fingerprint_their">their fingerprint</string>
+    <string name="fingerprint_verified_label">verified</string>
+    <string name="fingerprint_verified_message">you have verified this persons identity.</string>
+    <string name="fingerprint_yours">your fingerprint</string>
+    <string name="geohash_people_header">MỌI NGƯỜI</string>
+    <string name="geohash_placeholder">Geohash</string>
+    <string name="grant_location_permission">Cấp quyền vị trí</string>
+    <string name="grant_permissions">Cấp quyền</string>
+    <string name="image_page_of">Hình ảnh %1$d trong %2$d</string>
+    <string name="image_save_failed">Không thể lưu hình ảnh</string>
+    <string name="image_saved_to_downloads">Hình ảnh đã lưu vào \"Downloads\"</string>
+    <string name="image_star">image/*</string>
+    <string name="image_unavailable">Hình ảnh không có sẵn</string>
+    <string msgid="6827826412747255547" name="in_progress">"Đang thực hiện"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Đã kiểm tra một phần"</string>
+    <string name="initializing_mesh_network">Đang khởi tạo mạng mesh</string>
+    <string name="invalid_geohash">Geohash không hợp lệ</string>
+    <string name="join">Tham gia</string>
+    <string name="join_channel">Tham gia kênh</string>
+    <string name="leave_channel">Rời khỏi</string>
+    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_channels_desc">Trò chuyện với những người gần bạn qua các kênh geohash. Chỉ geohash thô được chia sẻ, không phải dữ liệu GPS chính xác. Vui lòng không chụp màn hình hoặc chia sẻ chế độ xem này để bảo vệ quyền riêng tư.</string>
+    <string name="location_channels_title">#Kênh vị trí</string>
+    <string name="location_explanation">MeshWave KHÔNG theo dõi vị trí của bạn.\n\nDịch vụ vị trí cần thiết cho quét Bluetooth và tính năng geohash chat.</string>
+    <string name="location_level_block">Khối</string>
+    <string name="location_level_city">Thành phố</string>
+    <string name="location_level_neighborhood">Khu phố</string>
+    <string name="location_level_province">Tỉnh</string>
+    <string name="location_level_region">Khu vực</string>
+    <string name="location_needs_bullets">• Quét thiết bị Bluetooth\n• Khám phá người dùng gần đó trong mạng mesh\n• Tính năng geohash chat\n• Không theo dõi hoặc thu thập vị trí</string>
+    <string name="location_needs_for">MeshWave cần dịch vụ vị trí cho:</string>
+    <string name="location_permission_denied">Quyền vị trí bị từ chối. Hãy bật trong Cài đặt để sử dụng kênh vị trí.</string>
+    <string name="location_permission_granted">\u2713 Đã cấp quyền vị trí</string>
+    <string name="location_services_required">Yêu cầu dịch vụ vị trí</string>
+    <string name="location_services_unavailable">Dịch vụ vị trí không có sẵn</string>
+    <string name="location_tracking_warning">MeshWave KHÔNG theo dõi vị trí của bạn</string>
+    <string name="location_unavailable_explanation">Dịch vụ vị trí không có sẵn trên thiết bị này. Điều này bất thường vì dịch vụ vị trí là tiêu chuẩn trên thiết bị Android.\n\nMeshWave cần dịch vụ vị trí để quét Bluetooth hoạt động đúng (yêu cầu Android). Không có nó, ứng dụng không thể khám phá người dùng gần đó.</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Thu gọn bảng dưới cùng"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Đóng bảng dưới cùng"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Nút kéo"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Mở rộng bảng dưới cùng"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Bảng dưới cùng"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Ngày đã nhập"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Ngày đã nhập: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Ngày không khớp với định dạng dự kiến: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Ngày không được phép: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Ngày không thuộc phạm vi năm dự kiến %1$s – %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Ngày"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Không có"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Chọn ngày"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Ngày đã chọn"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Lựa chọn hiện tại: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"Chuyển đến năm %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Không có"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Cuộn để hiện những năm trước"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Cuộn để hiện những năm sau"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Chuyển sang chế độ nhập lịch"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Vuốt để chọn một năm hoặc nhấn để chuyển lại về chọn một ngày"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Chuyển sang chế độ nhập văn bản"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Chuyển sang tháng tiếp theo"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Chuyển về tháng trước"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Chuyển sang chọn năm"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Chọn ngày"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Hôm nay"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Bộ chọn năm hiển thị"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Phạm vi ngày đã nhập không hợp lệ"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Nhập ngày"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Trong khoảng"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Ngày kết thúc"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Cuộn để hiện tháng sau"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Cuộn để hiện tháng trước"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Ngày bắt đầu"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Chọn ngày"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Hộp thoại"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Đã thu gọn"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Đã mở rộng"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Bật/tắt trình đơn thả xuống"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Tìm kiếm"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Đóng"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Các đề xuất ở bên dưới"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"SA"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Giờ"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d giờ"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Chọn giờ"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d giờ"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"nhập giờ"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Phút"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Chọn phút"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d phút"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"nhập phút"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Chọn SA hoặc CH"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"CH"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Hiện chú giải công cụ"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Chú giải công cụ"</string>
+    <string msgid="2792228137354697160" name="mc2_snackbar_pane_title">"Cảnh báo"</string>
+    <string name="media_type_file">File</string>
+    <string name="media_type_image">Hình ảnh</string>
+    <string name="mention">nhắc đến</string>
+    <string name="mesh_label">mesh</string>
+    <string name="mesh_service_notification_content">Mesh đang chạy — %1$d ngang hàng</string>
+    <string name="message_hint">Nhập tin nhắn…</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Trình đơn điều hướng"</string>
+    <string name="nickname_hint">Biệt danh</string>
+    <string name="no_one_connected">Không có ai kết nối</string>
+    <string name="nobody_around">không có ai xung quanh …</string>
+    <string msgid="6610465462668679431" name="not_selected">"Chưa chọn"</string>
+    <string name="notification_active_peers_many">%1$d người gần đó</string>
+    <string name="notification_active_peers_one">1 người gần đó</string>
+    <string name="notification_active_peers_title">👥 MeshWaveter gần đó!</string>
+    <string name="notification_and_more">và %1$d khác</string>
+    <string name="notification_geohash_summary_text">%1$d tin nhắn từ %2$d vị trí</string>
+    <string name="notification_geohash_summary_title">MeshWave – Trò chuyện vị trí</string>
+    <string name="notification_geohash_summary_title_mentions">MeshWave – %1$d lần nhắc đến</string>
+    <string name="notification_joined_conversation">%1$s đã tham gia cuộc trò chuyện</string>
+    <string name="notification_mentions_in">Được nhắc đến trong %1$s</string>
+    <string name="notification_mentions_in_more">Được nhắc đến trong %1$s (+%2$d khác)</string>
+    <string name="notification_mentions_in_plural">%1$d lần nhắc đến trong %2$s</string>
+    <string name="notification_mesh_mention_title_plural">%1$d lần nhắc đến trong Mesh Chat</string>
+    <string name="notification_mesh_mention_title_singular">Được nhắc đến trong Mesh Chat</string>
+    <string name="notification_messages_from_people">%1$d tin nhắn từ %2$d người</string>
+    <string name="notification_messages_in">Tin nhắn trong %1$s</string>
+    <string name="notification_more_conversations">và %1$d cuộc trò chuyện khác</string>
+    <string name="notification_more_locations">và %1$d vị trí khác</string>
+    <string name="notification_new_activity_in">Hoạt động mới trong %1$s</string>
+    <string name="notification_new_location_messages">Tin nhắn vị trí mới</string>
+    <string name="notification_new_messages">Tin nhắn mới</string>
+    <string name="notification_sent_file">📎 đã gửi file</string>
+    <string name="notification_sent_image">📷 đã gửi hình ảnh</string>
+    <string name="notification_sent_voice">🎤 đã gửi tin nhắn thoại</string>
+    <string name="notification_summary_more">và %1$d khác</string>
+    <string name="online_users">Người dùng trực tuyến</string>
+    <string name="open_location_settings">Mở cài đặt vị trí</string>
+    <string name="open_settings">Mở Cài đặt</string>
+    <string name="pan_zoom_instruction">di chuyển và zoom để chọn geohash</string>
+    <string name="people">Mọi người</string>
+    <string name="perm_battery_desc">Tắt tối ưu hóa pin để đảm bảo MeshWave chạy đáng tin cậy trong nền và duy trì kết nối mạng mesh</string>
+    <string name="perm_battery_system">Cho phép MeshWave chạy mà không bị giới hạn pin</string>
+    <string name="perm_location_desc">Android yêu cầu để khám phá người dùng MeshWave gần đó qua Bluetooth</string>
+    <string name="perm_location_system">MeshWave cần điều này để quét thiết bị gần đó</string>
+    <string name="perm_nearby_devices_desc">Cần thiết để khám phá người dùng MeshWave qua Bluetooth</string>
+    <string name="perm_nearby_devices_system">Cho phép MeshWave kết nối với thiết bị gần đó</string>
+    <string name="perm_notifications_desc">Nhận thông báo khi bạn nhận tin nhắn riêng</string>
+    <string name="perm_notifications_system">Cho phép MeshWave gửi thông báo cho bạn</string>
+    <string name="perm_type_battery_optimization">Tối ưu hóa pin</string>
+    <string name="perm_type_microphone">Microphone</string>
+    <string name="perm_type_nearby_devices">Thiết bị gần đó</string>
+    <string name="perm_type_notifications">Thông báo</string>
+    <string name="perm_type_other">Khác</string>
+    <string name="perm_type_precise_location">Vị trí chính xác</string>
+    <string name="permission_bluetooth_rationale">Quyền Bluetooth là cần thiết để trò chuyện trực tiếp với những người khác mà không cần Internet.</string>
+    <string name="permission_location_rationale">Quyền vị trí là cần thiết để tìm các thiết bị gần đó qua Bluetooth.</string>
+    <string name="permission_notification_rationale">Quyền thông báo là cần thiết để thông báo cho bạn về tin nhắn mới.</string>
+    <string name="permissions_header">Quyền</string>
+    <string name="pick_file">Chọn file</string>
+    <string name="pick_image">Chọn hình ảnh</string>
+    <string name="pow_label_format">pow: %1$dbit</string>
+    <string name="pow_mining_ellipsis">Đang mining …</string>
+    <string name="pow_time_estimate">(~%1$s)</string>
+    <string name="privacy_bullets">• không theo dõi hoặc thu thập dữ liệu\n• Bluetooth mesh chat hoàn toàn ngoại tuyến\n• Geohash chat sử dụng Internet</string>
+    <string name="privacy_first">Quyền riêng tư trước tiên</string>
+    <string name="privacy_protected">Quyền riêng tư của bạn được bảo vệ</string>
+    <string name="pwd_label">Mật khẩu</string>
+    <string name="pwd_prompt_message">Kênh %1$s được bảo vệ bằng mật khẩu. Nhập mật khẩu để tham gia.</string>
+    <string name="pwd_prompt_title">Nhập mật khẩu kênh</string>
+    <string msgid="5941395253238309765" name="range_end">"Điểm kết thúc phạm vi"</string>
+    <string msgid="7097486360902471446" name="range_start">"Điểm bắt đầu phạm vi"</string>
+    <string name="retry">Thử lại</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string name="security_verification_title">security verification</string>
+    <string name="select">chọn</string>
+    <string msgid="6043586758067023" name="selected">"Đã chọn"</string>
+    <string name="send_message">Gửi</string>
+    <string name="setting_up_bluetooth">Đang thiết lập mạng Bluetooth mesh …</string>
+    <string name="setup_not_complete">Thiết lập chưa hoàn thành</string>
+    <string name="should_take_seconds">Điều này chỉ mất vài giây</string>
+    <string name="show_commands">Hiển thị lệnh</string>
+    <string name="skip">Bỏ qua</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Cảnh báo"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Trống"</string>
+    <string msgid="5834637030682409883" name="state_off">"Đang tắt"</string>
+    <string msgid="1490883874751719580" name="state_on">"Đang bật"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Chuyển"</string>
+    <string msgid="1672349317127674378" name="tab">"Thẻ"</string>
+    <string name="teleport">dịch chuyển</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>%%."</string>
+    <string name="toast_failed_to_save_image">Không thể lưu hình ảnh</string>
+    <string name="toast_image_saved">Hình ảnh đã lưu vào \"Downloads\"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"chú thích"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"hiện chú thích"</string>
+    <string name="try_again">Thử lại</string>
+    <string name="type_a_message_placeholder">Nhập tin nhắn …</string>
+    <string name="unknown">không rõ</string>
+    <string name="verify_camera_permission">camera permission is needed to scan qr codes</string>
+    <string name="verify_mutual_match_body">You and %1$s verified each other</string>
+    <string name="verify_mutual_match_title">Mutual verification</string>
+    <string name="verify_mutual_system_message">mutual verification with %1$s</string>
+    <string name="verify_my_qr_title">scan to verify me</string>
+    <string name="verify_paste_label">paste verification url</string>
+    <string name="verify_qr_unavailable">qr unavailable</string>
+    <string name="verify_remove">remove verification</string>
+    <string name="verify_request_camera">enable camera</string>
+    <string name="verify_scan_prompt_friend">scan someone elses qr</string>
+    <string name="verify_scan_someone">scan someone elses qr</string>
+    <string name="verify_scanned">verification requested</string>
+    <string name="verify_show_my_qr">show my qr</string>
+    <string name="verify_success_body">You verified %1$s</string>
+    <string name="verify_success_system_message">verified %1$s</string>
+    <string name="verify_success_title">Verified</string>
+    <string name="verify_title">verify</string>
+    <string name="verify_validate">validate</string>
+    <string name="version_prefix">v%1$s</string>
+    <string name="you_suffix"> (bạn)</string>
+    <string name="your_network">Mạng lưới</string>
+</resources>
